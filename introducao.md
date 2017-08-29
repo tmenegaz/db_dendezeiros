@@ -88,7 +88,9 @@ Trabalhe metodicamente pelas etapas do ciclo de vida e corrija erros de projeto 
 
 7. O que é uma tupla na abordagem relacional?
 
-9. o que é SGBD?
+8. Qual a diferenção entre dado e informação?
+
+9. O que é SGBD?
 
 10. Apresente 3 exemplos de SGBD e suas principais características.
 
@@ -106,11 +108,11 @@ Trabalhe metodicamente pelas etapas do ciclo de vida e corrija erros de projeto 
 
 17. Faça um diagrama que ilustre a resposta da questão 16.
 
-18. por que a linguagem SQL não é considerada uma linguagem procedural?
+18. Por que a linguagem SQL não é considerada uma linguagem procedural?
 
-19. como instalar um SGBD em um sistema operacional?
+19. Como instalar um SGBD em um sistema operacional?
 
-20. o que é clustering?
+20. O que é clustering?
 
 [Voltar ao topo (Conceitos)](#conceitos)
 
