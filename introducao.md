@@ -29,7 +29,7 @@ A linguagem SQL possui divisões, a saber:
 
 Ademais, afim de atender aos objetivos de ensino e aprendizagem apresentados na ementa, aqui serão adotadas as versões SQL-99 e SQL-92. A partir da SQL-99 a linguagem SQL incorpora comandos procedurais<sup>[7](#myfootnote7)</sup> como o *BEGIN*, *IF*, *funções* e *procedimentos* que já existiam como extensões da linguagem. Essas duas revisões, padrão ISO-ANSI, são facilmente encontradas no mercado de desenvolvimento de sistemas sem, portanto, nenhum prejuizo para o aluno no decorrer do curso técnico de informática.
 
-Para falarmos de banco de dados, SQL, SGBDR e sistemas de banco de dados relacionais (*SBDR*) usamos varias fezes a palavra "**dado**", sem, contudo, defini-la neste contexto da Tecnologia da Informação - *TI*<sup>[8](#myfootnote8)</sup>. Agora vejamos o que é o dado o que está em seu entorno.
+Para falarmos de banco de dados, SQL, SGBDR e sistemas de banco de dados relacionais (*SBDR*) usamos varias vezes a palavra "**dado**", sem, contudo, defini-la neste contexto da Tecnologia da Informação - *TI*<sup>[8](#myfootnote8)</sup>. Agora vejamos o que é o dado o que está em seu entorno.
 
 O dado pode ser abstraido como a unidade básica da informação. Sendo um componente básico de um arquivo em um sistema de arquivos é o *item de dados* a menor unidade carregada de significado no mundo real. Não obstante a isso, pode-se apresentar como exemplo *nome*, *sobrenome*, *telefone*, *número de identificação*, *sigla de partido político* etc.
 
@@ -47,17 +47,24 @@ O *banco de dados* é mais complexo. A partir do que já foi visto até aqui pod
 
 Para poder manipular esses dados em suas tabelas, utiliza-se uma ferramenta chamada SGBD. Em sintese os SGBDs adimitem uma visão lógica, visão física, linguagem de definição de dados, linguagem de manipulação de dados e utilitário importantes. Aqui useremos um SGBDR por ter maior independência de dados. Essa característica, tão importante, o destacou de seus antecessores, o SGBD hierárquico e o de rede, por trazer a capacidade de mudar a estrutura lógica ou física de um certo banco de dados sem ter que reprogramar os programas de aplicação.
 
-# o Ciclo de vida
+# O Ciclo de vida
 
 O ciclo de vida de um banco de dados incorpora os passos básico envolvidos no projeto de um esquema global do banco de dados lógico, a alocação de dados por uma rede de computadores e a definição de esquemas locais específicos do SGBDR.
 
 1. **Análise de requisitos.** Os requisitos do banco de dados são determidados por meio de entrevistas com os produtores e os usuários dos dados. A ideia e elicitar o fato concreto do mundo real a fim de criar um *mini mundo*, um recorte da realidade que será criado no mundo virtual, nesse contexto é o computador.
-2. **Modelo conceitual de dados**. Essa etapa também é conhecida como *projeto lógico* por ter um esquema global com um diagrama de modelo de dados conceitual que mostra todos os dados e seus relacionamentos que ao final será transformado em tabelas. Nesse projeto lógico podemos classificar as fazes em *a*, *b*, *c* e *d* como instrumento didático, a saber.
+
+2. **Modelo conceitual de dados**. Essa etapa também é conhecida como *projeto lógico* por ter um esquema global com um diagrama de modelo de dados conceitual que mostra todos os dados e seus relacionamentos que ao final será transformado em tabelas. Nesse projeto lógico podemos classificar, as vezes, as fazes em *a*, *b*, *c* e *d* como instrumento didático, a saber.
+    
     a. **modelagem conceitual de dados** é a *analise* dos requisitos por meio de digramas de *ER* ou *UML*.
-    b. **integração da visão** quando o projeto é grande e mais de uma pessoa está envolvida na *analise* dos requisitos surgem várias visões dos dados e relacionamentos que devem serracionalisadas e concluidas em uma única visão global.
+
+    b. **integração da visão** quando o projeto é grande e mais de uma pessoa está envolvida na *analise* dos requisitos surgem várias visões dos dados e relacionamentos que devem ser racionalisadas e concluidas em uma única visão global.
+
     c. **tranformação do modelo conceitual em tabelas SQL** é feita por meio de uma categorização das construções de *modelagem de dados* e um conjunto de regras de mapeamento onde cada *relacionamento* e suas *entidades* associadas são transformadas em um conjunto de *tabelas* candidatas específicas do SGBDR.
+    
     d. **normalização de tabelas** é o processo de divisão de uma tabela candidata específica em tabelas menores a fim de eliminar **dependências funcionais**<sup>[9](#myfootnote9)</sup>.
+
 3. **Projeto físico**. Aqui o que se quer é uma representação precisa da realidade. o projeto implica em selecionar *índices*, realizar *particionamento*, *clustering* e *desnormalizar*.
+
 4. **Implementação, monitoração e modificação do banco de dados**. Quando o projeto é concluido o banco de dados pode ser criado por meio de uma DDL de um SGBDR. O banco pode ser manipulado por uma DML e consultado com uma DQL. Poderá ainda ser migrado de um SGBDR para outro e realizar DCL.
 
 Trabalhe metodicamente pelas etapas do ciclo de vida e corrija erros de projeto o mais rápido possível, voltamdo a etapa enterior e testando novas alternativas e separe bem o  projeto lógico do projeto físico, pois eles são dicotômicos:
@@ -95,7 +102,7 @@ Trabalhe metodicamente pelas etapas do ciclo de vida e corrija erros de projeto 
 
 15. O que é GRANT e REVOKE em DCL?  
 
-16. Qual a diferença entre sistema de banco de dados e sistema gerenciados de banco de dados?
+16. Qual a diferença entre sistema de banco de dados e sistema de gerenciados de banco de dados?
 
 17. Faça um diagrama que ilustre a resposta da questão 16.
 
