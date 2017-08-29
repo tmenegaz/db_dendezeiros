@@ -18,7 +18,7 @@
 
 ### Linkes no [git]
 
-[git]: https://github.com/tmenegaz/db_dendezeiros
+[git]: https://github.com/tmenegaz/db_dendezeiros#senai
 
 * [db_dendezeiros_aula2](https://github.com/tmenegaz/db_dendezeiros/blob/master/introducao.md#conceitos)
 
