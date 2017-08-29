@@ -18,3 +18,9 @@
 
 
 [Voltar ao topo (Lista de apresentações)](#lista-de-aulas)
+
+### Linkes no [git]
+
+[git]: https://github.com/tmenegaz/db_dendezeiros
+
+[db_dendezeiros_aula1](https://github.com/tmenegaz/db_dendezeiros/blob/master/introducao.md#conceitos)
