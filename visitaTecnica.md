@@ -2,7 +2,7 @@
 
 Caras(os) estudantes,
 
-a visita técnica à empresa [Solutis](http://solutis.com.br/index.php) será dia 30/08/2017, inicia às 10h da manhã e finda às 11h30.
+a visita técnica à empresa [Solutis](http://solutis.com.br/index.php) será dia *30/08/2017*, inicia às *10h* da manhã e finda às *11h30*.
 
 O telefone da empresa é *30212999*. Não deixe de informar seus pais ou responsável acerca da visita. A pessoa que vamos contatar para a visita é *Wilson Baião*. 
 
