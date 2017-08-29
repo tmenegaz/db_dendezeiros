@@ -108,12 +108,19 @@ Trabalhe metodicamente pelas etapas do ciclo de vida e corrija erros de projeto 
 [Voltar ao topo (Conceitos)](#conceitos)
 
 <a name="myfootnote1">1.</a> [História da IBM](http://www-03.ibm.com/ibm/history/interactive/index.html)
-<a name="myfootnote2">2.</a> [E. F. Codd: A relational model of data for large shared data banks](http://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf?cm_mc_uid=53564730589415039457967&cm_mc_sid_50200000=1503945796)
-<a name="myfootnote3">3.</a> [40 anos SGBDR](https://www.ibm.com/developerworks/community/blogs/ctaurion/entry/40_anos_de_sgbr27?lang=en)
-<a name="myfootnote4">4.</a> [ISO](https://www.iso.org/search/x/query/ISO%252FIEC%25209075)
-<a name="myfootnote5">5.</a> [Celso Henrique Poderoso de Oliveira](https://www.novatec.com.br/autores/celsopoderoso.php)
-<a name="myfootnote6">6.</a> [Projeto e Modelagem de Banco de Dados](https://www.elsevier.com/books/projeto-e-modelagem-de-banco-de-dados/lightstone/978-85-352-6445-6)
-<a name="myfootnote7">7.</a> o paradigma procedural define ***como algo deve ser feito*** em cada linha da sequência de ações.
-<a name="myfootnote8">8.</a> [TI](https://pt.wikipedia.org/wiki/Tecnologia_da_informa%C3%A7%C3%A3o)
-<a name="myfootnote9">9.</a> representa a dependência entre elementos de dados que são identificadores exclusivos (chaves).
 
+<a name="myfootnote2">2.</a> [E. F. Codd: A relational model of data for large shared data banks](http://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf?cm_mc_uid=53564730589415039457967&cm_mc_sid_50200000=1503945796)
+
+<a name="myfootnote3">3.</a> [40 anos SGBDR](https://www.ibm.com/developerworks/community/blogs/ctaurion/entry/40_anos_de_sgbr27?lang=en)
+
+<a name="myfootnote4">4.</a> [ISO](https://www.iso.org/search/x/query/ISO%252FIEC%25209075)
+
+<a name="myfootnote5">5.</a> [Celso Henrique Poderoso de Oliveira](https://www.novatec.com.br/autores/celsopoderoso.php)
+
+<a name="myfootnote6">6.</a> [Projeto e Modelagem de Banco de Dados](https://www.elsevier.com/books/projeto-e-modelagem-de-banco-de-dados/lightstone/978-85-352-6445-6)
+
+<a name="myfootnote7">7.</a> o paradigma procedural define ***como algo deve ser feito*** em cada linha da sequência de ações.
+
+<a name="myfootnote8">8.</a> [TI](https://pt.wikipedia.org/wiki/Tecnologia_da_informa%C3%A7%C3%A3o)
+
+<a name="myfootnote9">9.</a> representa a dependência entre elementos de dados que são identificadores exclusivos (chaves).
