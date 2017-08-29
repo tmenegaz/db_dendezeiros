@@ -20,6 +20,8 @@
 
 [git]: https://github.com/tmenegaz/db_dendezeiros
 
-[db_dendezeiros_aula2](https://github.com/tmenegaz/db_dendezeiros/blob/master/introducao.md#conceitos)
+* [db_dendezeiros_aula2](https://github.com/tmenegaz/db_dendezeiros/blob/master/introducao.md#conceitos)
+
+---
 
 [Voltar ao topo (Lista de apresentações)](#lista-de-aulas)
