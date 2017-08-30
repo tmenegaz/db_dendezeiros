@@ -31,11 +31,44 @@ Mas, se o estudante não obtiver pontuação suficiente durante o cronograma de 
 |:---:|:-------------:|:--:|:---:|
 |2,5|5|mista|a combinar|
 
-- A *4ª* avaliação está programada para o dia **10/10/2017** - terça-feira - e será a *entrega e apresentação do [trabalho](https://github.com/tmenegaz/db_dendezeiros/blob/master/trabalho.md#trabalho)* com carater de *avaliação somativa*.
+- A *4ª* avaliação está programada para o dia **10/10/2017** - terça-feira - e terá a *entrega e apresentação do [trabalho](https://github.com/tmenegaz/db_dendezeiros/blob/master/trabalho.md#trabalho)* com carater de *avaliação somativa*.
 
-|valor|quant. questões|tipo|tempo|
+|valor|parciais|tipo|tempo|
 |:---:|:-------------:|:--:|:---:|
-|3,5| - - - | - - - |a combinar|
+|3,5|5| - - - |a combinar|
+
+
+- Cronograma das parciais da 4ª avaliaçãi e seus critérios 
+- **parcial 1**
+
+|data|tempo|
+|:--:|:---:|
+|a combinar|a combinar|
+
+- **parcial 2**
+
+|data|tempo|
+|:--:|:---:|
+|a combinar|a combinar|
+
+- **parcial 3**
+
+|data|tempo|
+|:--:|:---:|
+|a combinar|a combinar|
+
+- **parcial 4**
+
+|data|tempo|
+|:--:|:---:|
+|a combinar|a combinar|
+
+- **parcial 5**
+
+|data|tempo|
+|:--:|:---:|
+|10/10/17|4h|
+
 
 - A *5ª* avaliação está programada para o dia **11/10/2017** - quarta-feira - e será uma *avaliação final (**AVF**)*. Está avaliação destina-se aos estudantes que não alcançarem 7 pontos, a partir da soma simples da 1ª, 2ª, 3ª e 4ª avaliação.
 
