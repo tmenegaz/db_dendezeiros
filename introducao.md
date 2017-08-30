@@ -75,6 +75,9 @@ Trabalhe metodicamente pelas etapas do ciclo de vida e corrija erros de projeto 
 # Exercícios
 
 1. Pesquise a fim de conhecer e determinar o que é banco de dados *hierárquico*, *rede*, *relacional*, *objeto-relacional* e *objeto*.
+- *hierárquico*: um gerenciador desse tipo representa dados como uma estrutura em árvore, composto de hierarquia e registros
+    - exemplo:
+    ![Gerenciador hierárquico]()
 
 2. O que é uma entidade na abordagem relacional?
 
