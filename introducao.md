@@ -102,15 +102,25 @@ Neste caso, há dados específicos em CLIENTE(nome, endereço, cidade, estado et
 
 2. O que é uma entidade na abordagem relacional?
 
+> A entidade é um *agrupamento lógico de informações inter-relacionadas* necessárias para a execução das atividades do sistema. Pensando no cilco de vida a entidade é um objeto do mundo real na elicitação dos requisitos: funcionário, cliente, produto, etc. Mas quando não for, contém informações relevantes às operações da empresa.
+>
+> Quando transportada ao *modelo físico* chamamos a entidade de tabela.
+>
+> Ao transpor do modelo Relacional para o modelo Orientado a Objeto, a *entidade* passa a ser uma *classe* ou *categoria* do objeto ao qual acregaremos os respectivos métodos.
+
 3. Dê exemplos de entidades.
+
+> Como exemplo podemos ter para Pessoa Física ou Jurídica as entidades: Pessoa, Funcionário, Clientes, Fornecedores, Empresa.
+>
+>Para documentos pode-se ter como exemplo: Ordem de compra, Pedido, Nota fiscal  
 
 4. Classifique as entidades.
 
 > As entidades pode ser classificadas em *fundamental* e *associativa*.
-
+>
 > - fundamental:  contem dados básicos que são resultados ou alimentadores das operações da empresa
-
-> - associativa: é formada pelo relacionamento de duas entidades fundamentais sempre que esta se relacionarem mais de uma vez: aluno X matéria; cd X autor; pedido X produto.
+>
+> - associativa: é formada pelo relacionamento de duas entidades fundamentais sempre que esta se relacionarem mais de uma vez: aluno X matéria; cd X autor; pedido X produto. É importante dizer que há um caso *específico* para a entidade associativa: *sempre que, além do simples relacionamento entre duas entidades fundamentais, houver outras informações específicas da nova entidade criada (quantidade e valor entre pedido e produto) ela será chamada de entidade associativa atributiva*.
 
 5. O que é um atributo na abordagem relacional?
 
