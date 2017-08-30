@@ -78,7 +78,7 @@ Trabalhe metodicamente pelas etapas do ciclo de vida e corrija erros de projeto 
 - *hierárquico*: um gerenciador desse tipo representa dados como uma estrutura em árvore, composto de hierarquia e registros
     - exemplo:
     
-   ![Gerenciador hierárquico](./img/gerenciadorHierarquico.png)
+   ![Gerenciador hierárquico](img/gerenciadorHierarquico.png "Gerenciador hierárquico")
 
 2. O que é uma entidade na abordagem relacional?
 
