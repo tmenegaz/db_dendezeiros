@@ -33,9 +33,9 @@ Mas, se o estudante não obtiver pontuação suficiente durante o cronograma de 
 
 - A *4ª* avaliação está programada para o dia **10/10/2017** - terça-feira - e terá a *entrega e apresentação do [trabalho](https://github.com/tmenegaz/db_dendezeiros/blob/master/trabalho.md#trabalho)* com carater de *avaliação somativa*.
 
-|valor|parciais|tipo|tempo|
+|valor|parciais|total|tempo|
 |:---:|:-------------:|:--:|:---:|
-|3,5|5| - - - |a combinar|
+|0,7|5|3,5|a combinar|
 
 
 - Cronograma das parciais da 4ª avaliação e seus critérios 
