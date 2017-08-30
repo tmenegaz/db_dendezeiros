@@ -38,7 +38,7 @@ Mas, se o estudante não obtiver pontuação suficiente durante o cronograma de 
 |0,7|5|3,5|a combinar|
 
 
-- Cronograma das parciais da 4ª avaliação e seus critérios 
+- Cronograma das parciais da 4ª avaliação e seus critérios.
 - **parcial 1**
 
 |data|tempo|
