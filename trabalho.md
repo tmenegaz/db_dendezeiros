@@ -49,9 +49,9 @@ O relatório deve seguir o padrão para cada etapa do ciclo de vida, a saber:
 
 - **Implementação, monitoração e modificação do banco de dados**. demonstar a funcionalidade do banco de dados elaborado a fim de atender a análise de requisitos elicitada na etapa 1 do ciclo de vida do banco de dados.
 
-Esse trabalho vale 3,5 pontos e deve ser entregue na data acordada conforme consta no documento das [avaliações](https://github.com/tmenegaz/db_dendezeiros/blob/master/avaliacao.md)
+Esse trabalho vale 3,5 pontos e deve ser entregue na data acordada conforme consta no documento das [avaliações](https://github.com/tmenegaz/db_dendezeiros/blob/master/avaliacao.md#avaliação)
 
-Para a obtenção dos pontos a equipe terá que entregar parcelas do projeto que podem alcançar até 1/5 avos de 3.5, conforme cronograma da 4ª avaliação, no documento das [avaliações](https://github.com/tmenegaz/db_dendezeiros/blob/master/avaliacao.md).
+Para a obtenção dos pontos a equipe terá que entregar parcelas do projeto que podem alcançar até 1/5 avos de 3.5, conforme cronograma da 4ª avaliação, no documento das [avaliações](https://github.com/tmenegaz/db_dendezeiros/blob/master/avaliacao.md#avaliação).
 
 Caso alguma parcial do trabalho não seja entregue na data acordada a equipe receberá nota zero referente a parcela.
 
