@@ -98,7 +98,7 @@ Neste caso, há dados específicos em CLIENTE(nome, endereço, cidade, estado et
 - *Objeto*: representa os dados e processos em um único objeto
     - exemplo
 
-    ![Gerenciador relacional](img/gerenciadorObjeto.png "Gerenciador relacional")
+    ![Gerenciador de objeto](img/gerenciadorObjeto.png "Gerenciador de objeto")
 
 2. O que é uma entidade na abordagem relacional?
 
