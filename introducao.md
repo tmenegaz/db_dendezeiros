@@ -124,21 +124,45 @@ Neste caso, há dados específicos em CLIENTE(nome, endereço, cidade, estado et
 
 5. O que é um atributo na abordagem relacional?
 
+> O atributo é o *item de dado* que qulifica uma entidade descreve seus elementos ou características. Quando evolui-se para o projeto físico do modelo chamamos o atributo de campo ou coluna.
+
 6. Exemplifique atributos.
+
+> Exemplo de atributos para uma entidade Pessoa: nome, sobrenome, endereço, RG, CPF.
+>
+> Exemplo para entidade Nota fiscal: série, número, data de emissão, cliente, valor.
 
 7. O que é uma tupla na abordagem relacional?
 
+> A tupla é uma estrutura de atributos que residem em uma entidade.
+>
+> Quando transposta para o modelo físico uma tupla é chamada deregistro ou linha da tabela (entidade).
+
 8. Qual a diferenção entre dado e informação?
+
+> O dado é a unidade básica da informação e a infprmação é um conjunto de dados organizados logicamente a fim de gerar sentido.
 
 9. O que é SGBD?
 
 10. Apresente 3 exemplos de SGBD e suas principais características.
 
-11. Em TI por que é importante o descolamento ou desacoplamento?
+11. Em TI, por que é importante o descolamento ou desacoplamento?
+
+> O desacoplamento é a *separação de responsabilidades*. Segundo Robert C. Martin, nos ensina, deve-se desenvolver software sobre a regra da *responsabilidade única*. Essa coesão deve ser realizada por uma classe de maneira satisfatória. Dessa forma, fica fácil desacoplar ou descolar uma parte da aplicação sem comprometer as demais.
 
 12. O que é independência de dados?
 
+> Quando se prima pela *independência de dados* em um projeto de banco de dados, está a se previnir com relação a futuras necessidades de reorganização e conversão do banco de dados. Posto isso, fica evidente a utilização da regra da responsabilidade única no projeto. Então, a *independência de dados* é a capacidade de fazer mudanças em uma estrutura lógica ou física de banco de dados sem exigir reprogramação dos programas de aplicação.
+
 13. O que é uma chave?
+
+> A chave é um atributo utilizado para indexar dados. São 3 os tipos de chave:
+>
+> - chave primária - é o atributo que permite identificar a ocorrência de uma única tupla (linha) em uma entidade. Os demais atributos, da entidade, devem depender unicamente desse atributo chave.  Eventualmente a chave pode ser determinada pela união de um atributo com outro atributo ou mais. Nesses casos a chave será chamada de chave concatenada.
+>  
+> - chave estrangeira - é o atributo chave de uma entidade que estabelece a relação de uma entidade com a chave primária de outra entidade. Sendo assim, permitindo a relação entre entidades.
+>
+> - chave secundária - Sempre que houver a necessidade de buscar informaçãoes semelhantes, em ordem crescente ou não, em função de data, valores ou status predefinidos, cria-se chaves secundárias. Essas chaves também podem ser concatenadas a outras chaves secundárias pra extrair a informação desejada. Portanto, a chave secundária é utilizada como meio de classificar e pesquisar nas entidades.
 
 14. Para que serve a linguagem SQL?
 
