@@ -78,7 +78,7 @@ Mas, se o estudante não obtiver pontuação suficiente durante o cronograma de 
 
 [Voltar ao topo (Avaliação)](#avaliação)
 
-Agora que o cronograma e os critérios de avaliação da unidade curricular foram apresentados veja a [lista](https://github.com/tmenegaz/db_dendezeiros/blob/master/lista.md#lista-de-aulas) das apresentações que acompanharam os assuntos tratados em cada aula ministrada. 
+Agora que o cronograma e os critérios de avaliação da unidade curricular foram apresentados veja a [lista](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas) das apresentações que acompanharam os assuntos tratados em cada aula ministrada. 
 
 ---
 
