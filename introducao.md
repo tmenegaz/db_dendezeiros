@@ -88,6 +88,18 @@ Neste caso, há dados específicos em CLIENTE(nome, endereço, cidade, estado et
 
     ![Gerenciador de rede](img/gerenciadorRede.png "Gerenciador de rede")
 
+- *Relacional*: representa osdados com uma simples coleção de linhas e colunas em tabelas bidimensionais.
+    - exemplo
+
+    ![Gerenciador relacional](img/gerenciadorRelacional.png "Gerenciador relacional")
+
+- *Objeto-Relacional*: Combina o modelo orientado a objetos (*união de propriedades e métodos*) com o modelo relacional(linhas e colunas de tabelas).
+
+- *Objeto*: representa os dados e processos em um único objeto
+    - exemplo
+
+    ![Gerenciador relacional](img/gerenciadorObjeto.png "Gerenciador relacional")
+
 2. O que é uma entidade na abordagem relacional?
 
 3. Dê exemplos de entidades.
