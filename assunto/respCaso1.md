@@ -4,7 +4,7 @@
 
 > Nomo do projeto: **Católodo de CDs**
 >
-> Contatante: **Maria**
+> Contratante: **Maria**
 >
 > Entidades identificadas:
 >
