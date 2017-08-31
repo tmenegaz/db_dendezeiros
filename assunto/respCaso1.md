@@ -1,4 +1,4 @@
-# [Caso Loja de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#estudos-de-caso)
+# [Caso Loja de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso1.md#caso-loja-de-cds)
 
 ## [Prática para o catálogo de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#pratique)
 
