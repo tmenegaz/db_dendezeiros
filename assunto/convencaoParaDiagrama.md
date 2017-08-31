@@ -1,6 +1,16 @@
-# Convenção para a utilização do Diagrama
+# Convenção para a utilização do diagrama
 
 Oliveira nos apresenta em Projetando banco de dados(*p. 35*) alguns elementos do diagrama que vão servir, preliminarmente, para a contrução de diagramas de entidades com seus relacionamentos - *ER*.
+
+A representação da *entidade* se dá por meio de um *retângulo* e a relação que pode existir entre duas *entidades*, por um losango, conforme a figura abaixo
+
+![entidade e relacionamento](img/entidadeRelacionamento.png "Entidade e relacionamento")
+
+O relacionamento apresentado na forma de um *losango* é facultativa e deverá desaparecer quando o projeto de um banco de dados chegar até a fase da modelagem física.
+
+Os atributos das entidades serão representados  dentro da entidade que irá, então, ser compreendida como um container, conforme mostra a figura abaixo.
+
+![entidade e atributo](img/entidadeAtributo.png "Entidade e atributo")
 
 A união de 2 entidades que se relacionam se dá por meio de uma linha. A opcionalidade da relação e representada pela linha quando essa for contínua indicando, então, obrigatóriedade (**deve**) ou com um círculo vazia para representar opcionalidade (**pode**), em uma das extremidades da linha.
 
