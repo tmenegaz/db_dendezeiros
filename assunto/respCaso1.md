@@ -22,7 +22,7 @@
 ## [Voltar para o enunciado do relacionamentos do catálogo de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#relacionamento)
 
 > - **Cada** *CD* **deve ser** *gravado* por **uma única** *gravadora*.
-> - **Cada** *gravadora* **deve ter** *gravado* **uma ou mais** *CDs*.
+> - **Cada** *gravadora* **deve ter** *gravado* **um ou mais** *CDs*.
 > 
 > - **Cada** *CD* **deve ter** *precificado* **um único** *Preço*.
 > - **Cada** *Preço* **deve estar** *precificado* em **um ou mais** *CDs*.

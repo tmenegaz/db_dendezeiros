@@ -12,7 +12,7 @@ Os atributos das entidades serão representados  dentro da entidade que irá, en
 
 ![entidade e atributo](img/entidadeAtributo.png "Entidade e atributo")
 
-A união de 2 entidades que se relacionam se dá por meio de uma linha. A opcionalidade da relação e representada pela linha quando essa for contínua indicando, então, obrigatóriedade (**deve**) ou com um círculo vazia para representar opcionalidade (**pode**), em uma das extremidades da linha.
+A união de 2 entidades que se relacionam se dá por meio de uma linha. A condição da relação e representada pela linha quando essa for contínua indicando, então, obrigatóriedade (**deve**) ou com um círculo vazia para representar opcionalidade (**pode**), em uma das extremidades da linha.
 
 Quanto ao grau de cardinalidade, um traço na vertical ( **|** ) em uma das extremidades irá indicar uma ocorrência e um tridente, também em uma das pontas, indicará mais de uma ocorrência.
 
@@ -26,8 +26,22 @@ A figura abaixo ilustra as possíveis cardinalidades obrigatórias
 
 ![cardinalidades obrigatórias](img/diagramaRelacionamento.png "Cardinalidades obrigatórias")
 
-Essa outra figura ilustra as cardinalidades para demonstrar uma relação *opcional*.
+Essa outra figura ilustra as cardinalidades para demonstrar uma condição *opcional*.
 
 ![cardinalidades opcionais](img/diagramaRelacionamentoOpcional.png "Cardinalidades opcionais")
+
+Tomemos esse relacionamento para iustaração, a saber:
+
+**Cada** *CD* **deve ser** *gravado* por **uma única** *Gravadora*.
+**Cada** *Gravadora* **deve ter** *gravado* **um ou mais** *CDs*.
+
+Tem-se então:
+
+- **CD** e **Gravadora** como entidades
+- **gravado** como relacionamento
+- **deve ser** e **deve ter**  como condição obrigatória pois tem a palavra *deve*
+- **uma única** e **um ou mais** como grau de cardinalidade *1:m*
+
+
 
 
