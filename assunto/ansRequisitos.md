@@ -23,6 +23,21 @@ Agora, Angelo vai criar o projeto de bancode dados para seu Antônio relacionand
     - ex.: CD é o produto básico de venda .... Picolés são: do *tipo* fruta e doce
 - faça um diagrama com pelo menos, alguns de seus atributos.
 
+### Prática para o catálogo de CDs
+
+Nomo do projeto: **Católodo de CDs**
+
+Contatante: **Maria**
+
+1. CD - produto da venda
+2. Musica - conteúdo do CD
+3. Gravadora - fornecedor do CD
+4. Autor - cria a música
+5. Faixa - forma de organização das músucas no CD
+6. Preço - valor da venda do produto CD
+7. Artista - conteúdo do CD
+8. Banda - conteúdo do CD
+
 ## Relacionamento
 
 Sempre que duas entidades apresentarem *interdependência*, indica-se um relacionamento entre elas. (picolé de frutas ou venda na praia).
@@ -34,19 +49,43 @@ Use o seguinte esquema por meio de substituição:
 Então usando a subtituição temos:
 
 - **Cada** *CD* **deve ser** *gravado* por **uma única** *gravadora*.
-- **Cada** *picolé* **deve ser** *vendido* com *um único** * tipo* de sabor.
+- **Cada** *picolé* **deve ser** *vendido* com **um único** *tipo* de sabor.
 
-Você deve ter notado que cada relacionamento contém um nome: um verbo ou uma locução no particípio passado.Tem também a determinação de opcionalidade(deve ou pode ...) e um certo grau de cardinalidade (uma única ou uma ou mais).
+Você deve ter notado que cada relacionamento contém um nome; um verbo ou uma locução no particípio passado.Tem também a determinação de opcionalidade(deve ou pode ...) e um certo grau de cardinalidade (uma única ou uma ou mais).
 
+### Relacionamentos para o catálogo de CDs
 
+- **Cada** *CD* **deve ser** *gravado* por **uma única** *gravadora*.
+- **Cada** *gravadora* **deve ter** *gravado* **uma ou mais** *CDs*.
 
+- **Cada** *CD* **deve ter** *precificado* **um único** *Preço*.
+- **Cada** *Preço* **deve estar** *precificado* em **um ou mais** *CDs*.
 
+- **Cada** *CD* **deve ter** *garavado* **uma ou mais** *músicas*.
+- **Cada** *música* **deve estar** *garavada* em **um ou mais** *CDs*.
 
+**OBS**
+> Cd tem relação com música ou tem relação  com faixa?
+> Se a música tem relação com faixa então a música não precisa ter relação com CD?
+> o que acham?
 
+- **Cada** *Faixa* **deve estar** *incluida* em **uma ou mais** *CD*.
+- **Cada** *CD* **deve ter** *incluido* **um ou mais** *Faixa*.
 
+- **Cada** *Faixa* **deve ter** *ordenado* **uma única** *músicas*.
+- **Cada** *música* **deve estar** *ordenada* em **uma única** *Faixa*.
 
+- **Cada** *Autor* **deve ter** *composta* **uma ou mais** *músicas*.
+- **Cada** *música* **deve ser** *composta* por **um ou mais** *Autores*.
 
+- **Cada** *Artista* **deve ter** *cantado* **uma ou mais** *músicas*.
+- **Cada** *música* **deve ser** *cantada* por **um ou mais** *Artistas*
 
+- **Cada** *Música* **deve ser** *tocada* por **uma ou mais** *Bandas*.
+- **Cada** *Banda* **deve ter** *tocado* **um ou mais** *Música*.
+
+- **Cada** *Banda* **deve ter** *elencado* **um ou mais** *Artistas*.
+- **Cada** *Artista* **deve ser** *elencado* em **uma ou mais** *Bandas*.
 
 
 
