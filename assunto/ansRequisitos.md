@@ -30,6 +30,8 @@ Agora, Angelo vai criar o projeto de bancode dados para seu Antônio relacionand
 >
 > Contatante: **Maria**
 >
+> Entidades identificadas:
+>
 > 1. CD - produto da venda
 > 2. Musica - conteúdo do CD
 > 3. Gravadora - fornecedor do CD
