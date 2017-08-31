@@ -42,6 +42,16 @@ Tem-se então:
 - **deve ser** e **deve ter**  como condição obrigatória pois tem a palavra *deve*
 - **uma única** e **um ou mais** como grau de cardinalidade *1:m*
 
+Em diagrama:
 
+![cd e gravador](img/cdGravadora_v1.png"relação entre CD e Gravadora")
+
+Melhorando o diagrama versão 1
+
+![cd e gravador](img/cdGravadora_v2.png"relação entre CD e Gravadora")
+
+Melhorando o diagrama versão 2
+
+![cd e gravador](img/cdGravadora_v3.png"relação entre CD e Gravadora")
 
 
