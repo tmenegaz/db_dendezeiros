@@ -26,20 +26,20 @@ Agora, Angelo vai criar o projeto de bancode dados para seu Antônio relacionand
 
 ### Prática para o catálogo de CDs
 
-Nomo do projeto: **Católodo de CDs**
-
-Contatante: **Maria**
-
-1. CD - produto da venda
-2. Musica - conteúdo do CD
-3. Gravadora - fornecedor do CD
-4. Autor - cria a música
-5. Faixa - forma de organização das músucas no CD
-6. Preço - valor da venda do produto CD
-7. Artista - conteúdo do CD
-8. Banda - conteúdo do CD
-
-![diagrama do catálogo de CDs com alguns atributos](img/entidadesProjetoCatCDs.png "Diagrama do catálogo de CDs")
+> Nomo do projeto: **Católodo de CDs**
+>
+> Contatante: **Maria**
+>
+> 1. CD - produto da venda
+> 2. Musica - conteúdo do CD
+> 3. Gravadora - fornecedor do CD
+> 4. Autor - cria a música
+> 5. Faixa - forma de organização das músucas no CD
+> 6. Preço - valor da venda do produto CD
+> 7. Artista - conteúdo do CD
+> 8. Banda - conteúdo do CD
+>
+> ![diagrama do catálogo de CDs com alguns atributos](img/entidadesProjetoCatCDs.png "Diagrama do catálogo de CDs")
 
 
 ## Relacionamento
