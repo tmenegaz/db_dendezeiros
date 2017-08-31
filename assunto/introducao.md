@@ -86,7 +86,7 @@ Neste caso, há dados específicos em CLIENTE(nome, endereço, cidade, estado et
 - *Rede*: representa osdados como registros vinculados uns aos outros, formando conjuntos comuns de dados. Existe uma similaridade muito grande o modelo hierárquico e o modelo de rede. Pode-se enteder o modelo de rede como uma generalização do modelo hierárquico. no modelo de rede um *filho* pode ter mais de um *pai*.
     - exemplo
 
-   ![Gerenciador de rede](aulas/img/gerenciadorRede.png "Gerenciador de rede")
+   ![Gerenciador de rede](master/img/gerenciadorRede.png "Gerenciador de rede")
 
 - *Relacional*: representa osdados com uma simples coleção de linhas e colunas em tabelas bidimensionais.
     - exemplo
