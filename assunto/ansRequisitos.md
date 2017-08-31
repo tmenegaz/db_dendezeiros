@@ -6,6 +6,8 @@ Maria possui uma loja que vende CDs de música e organizou os pequenos discos em
 
 Então Maria percebeu que devia mudar. Contatou os estudantes do curso técnico de informática da unidade Dendezeiros do SENAI para desenvolverem a sua solução. Queria ir além da concorrência e pediu um catálogo de CDs para atender as perguntas de seus clientes. Maria, experiente, sabia o gosto de seu clientes que buscavam informações sobre o nome, preço e gravadora. Cada CD possui diferentes quantidades de faixas, contendo músicas que, as vezes, se repetem em outro CD e em outra posição. Cada música tem um tempo de duração e é importante saber os autores e o ano de suas gravações, em um determinado CD. Existem também, as encomendas e para isso é importante saber informações mais detalhadas das gravadoras para efetuar uma compra. Maria quer também usar de uma estratégia de venda que tem dado muito certo na loja de prateleiras, em cada CD deve haver a indicação para outro. A classificaçaõ dos CDs deve ser por faixa de preço ao qual ele pertence.
 
+> [Análise desenvolvida para o caso Loja de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso1.md#caso-loja-de-cds)
+
 ## Vendedor de capelinha
 
 Seu antônio tem 65 anos e vende capelinha na praia de 4ª à domingo. Ele costuma comprar os picolés na fábrica, em grande quantidade e diversidade. Cada picolé custa, para seu Antônio, R$0,75 e ele vende por R$2,00 cada. O problema é que a quantidade de praias que ele percorre aumentou pois as prais tem estado menos cheias e seu Antônio está voltando pra casa com picoles que não foram vendidos no período costumeiro.
@@ -23,27 +25,6 @@ Agora, Angelo vai criar o projeto de bancode dados para seu Antônio relacionand
     - ex.: CD é o produto básico de venda .... Praia é o ponto de venda dos picolés
 - faça um diagrama com pelo menos, alguns de seus atributos.
 
-
-### Prática para o catálogo de CDs
-
-> Nomo do projeto: **Católodo de CDs**
->
-> Contatante: **Maria**
->
-> Entidades identificadas:
->
-> 1. CD - produto da venda
-> 2. Musica - conteúdo do CD
-> 3. Gravadora - fornecedor do CD
-> 4. Autor - cria a música
-> 5. Faixa - forma de organização das músucas no CD
-> 6. Preço - valor da venda do produto CD
-> 7. Artista - conteúdo do CD
-> 8. Banda - conteúdo do CD
->
-> ![diagrama do catálogo de CDs com alguns atributos](img/entidadesProjetoCatCDs.png "Diagrama do catálogo de CDs")
-
-
 ## Relacionamento
 
 Sempre que duas entidades apresentarem *interdependência*, indica-se um relacionamento entre elas. (picolé de frutas ou venda na praia).
@@ -58,37 +39,3 @@ Então usando a subtituição temos:
 - **Cada** *picolé* **deve ser** *vendido* com **um único** *tipo* de sabor.
 
 Você deve ter notado que cada relacionamento contém um nome; um verbo ou uma locução no particípio passado.Tem também a determinação de opcionalidade(deve ou pode ...) e um certo grau de cardinalidade (uma única ou uma ou mais).
-
-### Relacionamentos para o catálogo de CDs
-
-> - **Cada** *CD* **deve ser** *gravado* por **uma única** *gravadora*.
-> - **Cada** *gravadora* **deve ter** *gravado* **uma ou mais** *CDs*.
-> 
-> - **Cada** *CD* **deve ter** *precificado* **um único** *Preço*.
-> - **Cada** *Preço* **deve estar** *precificado* em **um ou mais** *CDs*.
-> 
-> - **Cada** *CD* **deve ter** *garavado* **uma ou mais** *músicas*.
-> - **Cada** *música* **deve estar** *garavada* em **um ou mais** *CDs*.
-> 
-> **OBS**
-> Cd tem relação com música ou tem relação  com faixa?
-> Se a música tem relação com faixa então a música não precisa ter relação com CD?
-> o que acham?
-> 
-> - **Cada** *Faixa* **deve estar** *incluida* em **uma ou mais** *CD*.
-> - **Cada** *CD* **deve ter** *incluido* **um ou mais** *Faixa*.
-> 
-> - **Cada** *Faixa* **deve ter** *ordenado* **uma única** *músicas*.
-> - **Cada** *música* **deve estar** *ordenada* em **uma única** *Faixa*.
-> 
-> - **Cada** *Autor* **deve ter** *composta* **uma ou mais** *músicas*.
-> - **Cada** *música* **deve ser** *composta* por **um ou mais** *Autores*.
-> 
-> - **Cada** *Artista* **deve ter** *cantado* **uma ou mais** *músicas*.
-> - **Cada** *música* **deve ser** *cantada* por **um ou mais** *Artistas*
-> 
-> - **Cada** *Música* **deve ser** *tocada* por **uma ou mais** *Bandas*.
-> - **Cada** *Banda* **deve ter** *tocado* **um ou mais** *Música*.
-> 
-> - **Cada** *Banda* **deve ter** *elencado* **um ou mais** *Artistas*.
-> - **Cada** *Artista* **deve ser** *elencado* em **uma ou mais** *Bandas*.
