@@ -20,7 +20,7 @@ Agora, Angelo vai criar o projeto de bancode dados para seu Antônio relacionand
 - há informações relevantes da entidade necessárias às operações da empresa/profissional?
 - cada instância da entidade possui um identificador único(chave)?
 - escreva uma descrição das supostas entidades
-    - ex.: CD é o produto básico de venda .... Picolés são: do *tipo* fruta e doce
+    - ex.: CD é o produto básico de venda .... Praia é o ponto de venda dos picolés
 - faça um diagrama com pelo menos, alguns de seus atributos.
 
 
