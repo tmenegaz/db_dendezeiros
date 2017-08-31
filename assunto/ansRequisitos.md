@@ -61,38 +61,34 @@ Você deve ter notado que cada relacionamento contém um nome; um verbo ou uma l
 
 ### Relacionamentos para o catálogo de CDs
 
-- **Cada** *CD* **deve ser** *gravado* por **uma única** *gravadora*.
-- **Cada** *gravadora* **deve ter** *gravado* **uma ou mais** *CDs*.
-
-- **Cada** *CD* **deve ter** *precificado* **um único** *Preço*.
-- **Cada** *Preço* **deve estar** *precificado* em **um ou mais** *CDs*.
-
-- **Cada** *CD* **deve ter** *garavado* **uma ou mais** *músicas*.
-- **Cada** *música* **deve estar** *garavada* em **um ou mais** *CDs*.
-
-**OBS**
+> - **Cada** *CD* **deve ser** *gravado* por **uma única** *gravadora*.
+> - **Cada** *gravadora* **deve ter** *gravado* **uma ou mais** *CDs*.
+> 
+> - **Cada** *CD* **deve ter** *precificado* **um único** *Preço*.
+> - **Cada** *Preço* **deve estar** *precificado* em **um ou mais** *CDs*.
+> 
+> - **Cada** *CD* **deve ter** *garavado* **uma ou mais** *músicas*.
+> - **Cada** *música* **deve estar** *garavada* em **um ou mais** *CDs*.
+> 
+> **OBS**
 > Cd tem relação com música ou tem relação  com faixa?
 > Se a música tem relação com faixa então a música não precisa ter relação com CD?
 > o que acham?
-
-- **Cada** *Faixa* **deve estar** *incluida* em **uma ou mais** *CD*.
-- **Cada** *CD* **deve ter** *incluido* **um ou mais** *Faixa*.
-
-- **Cada** *Faixa* **deve ter** *ordenado* **uma única** *músicas*.
-- **Cada** *música* **deve estar** *ordenada* em **uma única** *Faixa*.
-
-- **Cada** *Autor* **deve ter** *composta* **uma ou mais** *músicas*.
-- **Cada** *música* **deve ser** *composta* por **um ou mais** *Autores*.
-
-- **Cada** *Artista* **deve ter** *cantado* **uma ou mais** *músicas*.
-- **Cada** *música* **deve ser** *cantada* por **um ou mais** *Artistas*
-
-- **Cada** *Música* **deve ser** *tocada* por **uma ou mais** *Bandas*.
-- **Cada** *Banda* **deve ter** *tocado* **um ou mais** *Música*.
-
-- **Cada** *Banda* **deve ter** *elencado* **um ou mais** *Artistas*.
-- **Cada** *Artista* **deve ser** *elencado* em **uma ou mais** *Bandas*.
-
-
-
-
+> 
+> - **Cada** *Faixa* **deve estar** *incluida* em **uma ou mais** *CD*.
+> - **Cada** *CD* **deve ter** *incluido* **um ou mais** *Faixa*.
+> 
+> - **Cada** *Faixa* **deve ter** *ordenado* **uma única** *músicas*.
+> - **Cada** *música* **deve estar** *ordenada* em **uma única** *Faixa*.
+> 
+> - **Cada** *Autor* **deve ter** *composta* **uma ou mais** *músicas*.
+> - **Cada** *música* **deve ser** *composta* por **um ou mais** *Autores*.
+> 
+> - **Cada** *Artista* **deve ter** *cantado* **uma ou mais** *músicas*.
+> - **Cada** *música* **deve ser** *cantada* por **um ou mais** *Artistas*
+> 
+> - **Cada** *Música* **deve ser** *tocada* por **uma ou mais** *Bandas*.
+> - **Cada** *Banda* **deve ter** *tocado* **um ou mais** *Música*.
+> 
+> - **Cada** *Banda* **deve ter** *elencado* **um ou mais** *Artistas*.
+> - **Cada** *Artista* **deve ser** *elencado* em **uma ou mais** *Bandas*.
