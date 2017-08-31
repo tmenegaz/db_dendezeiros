@@ -44,14 +44,14 @@ Tem-se então:
 
 Em diagrama:
 
-![cd e gravador_v1](img/cdGravadora_v1.png"relação entre CD e Gravadora")
+![cd e gravador_v1](img/cdGravadora_v1.png "relação entre CD e Gravadora")
 
 Melhorando o diagrama versão 1
 
-![cd e gravador_v2](img/cdGravadora_v2.png"relação entre CD e Gravadora")
+![cd e gravador_v2](img/cdGravadora_v2.png "relação entre CD e Gravadora")
 
 Melhorando o diagrama versão 2
 
-![cd e gravador_v3](img/cdGravadora_v3.png"relação entre CD e Gravadora")
+![cd e gravador_v3](img/cdGravadora_v3.png "relação entre CD e Gravadora")
 
 
