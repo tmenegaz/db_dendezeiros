@@ -36,10 +36,10 @@
 > o que acham?
 > 
 > - **Cada** *Faixa* **deve estar** *incluida* em **uma ou mais** *CD*.
-> - **Cada** *CD* **deve ter** *incluido* **um ou mais** *Faixa*.
+> - **Cada** *CD* **deve ter** *incluido* **um ou mais** *Faixa*.m
 > 
-> - **Cada** *Faixa* **deve ter** *ordenado* **uma única** *músicas*.
-> - **Cada** *música* **deve estar** *ordenada* em **uma única** *Faixa*.
+> - **Cada** *Faixa* **deve ter** *referenciado* **uma única** *músicas*.
+> - **Cada** *música* **deve estar** *referenciada* em **uma única** *Faixa*.
 > 
 > - **Cada** *Autor* **deve ter** *composta* **uma ou mais** *músicas*.
 > - **Cada** *música* **deve ser** *composta* por **um ou mais** *Autores*.
