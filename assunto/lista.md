@@ -24,6 +24,8 @@
 
 * [db_dendezeiros_aula3](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/visitaTecnica.md#visita-técnica)
 
+* [db_dendezeiros_aula4](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#estudos-de-caso)
+
 ---
 
 [Voltar ao topo (Lista de apresentações)](#lista-de-aulas)

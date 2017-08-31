@@ -19,7 +19,7 @@
 >
 > ![diagrama do catálogo de CDs com alguns atributos](img/entidadesProjetoCatCDs.png "Diagrama do catálogo de CDs")
 
-## [Voltar para o enunciado do relacionamentos para o catálogo de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#relacionamento)
+## [Voltar para o enunciado do relacionamentos do catálogo de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#relacionamento)
 
 > - **Cada** *CD* **deve ser** *gravado* por **uma única** *gravadora*.
 > - **Cada** *gravadora* **deve ter** *gravado* **uma ou mais** *CDs*.
