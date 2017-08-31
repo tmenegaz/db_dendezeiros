@@ -22,7 +22,7 @@ Agora, Angelo vai criar o projeto de bancode dados para seu Antônio relacionand
 - escreva uma descrição das supostas entidades
     - ex.: CD é o produto básico de venda .... Picolés são: do *tipo* fruta e doce
 - faça um diagrama com pelo menos, alguns de seus atributos.
-> ![clique para ver o diagrama do catálogo de CDs com alguns atributos](img/entidadesProjetoCatCDs.png "Diagrama do catálogo de CDs")
+
 
 ### Prática para o catálogo de CDs
 
@@ -39,6 +39,7 @@ Contatante: **Maria**
 7. Artista - conteúdo do CD
 8. Banda - conteúdo do CD
 
+![diagrama do catálogo de CDs com alguns atributos](img/entidadesProjetoCatCDs.png "Diagrama do catálogo de CDs")
 
 
 ## Relacionamento
