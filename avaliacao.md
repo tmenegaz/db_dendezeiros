@@ -19,6 +19,16 @@ Mas, se o estudante não obtiver pontuação suficiente durante o cronograma de 
 |:---:|:-------------:|:--:|:---:|
 |1,5|5|mista|2h|
 
+- Assunto para a prova:
+
+    - Estudar do ciclo de vida, desde elicitação de requisitos até construção de diagrama com as entidades e seus relacionamentos (condicionais e cardinais).
+
+    [Estudo de caso](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#estudos-de-caso)
+    
+    - Dominar as 20 questões abertar, respondidas. 
+
+    [Exercício](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/introducao.md#exercícios)
+
 - A *2ª* avaliação está programada para o dia **19/09/2017** - terça-feira - e será uma *avaliação formativa*.
 
 |valor|quant. questões|tipo|tempo|
