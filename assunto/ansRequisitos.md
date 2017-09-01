@@ -10,9 +10,9 @@ Então Maria percebeu que devia mudar. Contatou os estudantes do curso técnico 
 
 ## Vendedor de capelinha
 
-Seu antônio tem 65 anos e vende capelinha na praia de 4ª à domingo. Ele costuma comprar os picolés na fábrica, em grande quantidade e diversidade. Cada picolé custa, para seu Antônio, R$0,75 e ele vende por R$2,00 cada. O problema é que a quantidade de praias que ele percorre aumentou pois as prais tem estado menos cheias e seu Antônio está voltando pra casa com picoles que não foram vendidos no período costumeiro.
+Seu antônio tem 65 anos e vende capelinha na praia de 4ª à domingo. Ele costuma comprar os picolés na fábrica, em grande quantidade e diversidade. Cada picolé custa, para seu Antônio, R$0,75 e ele vende por R$2,00 cada. O problema é que a quantidade de praias que ele percorre aumentou, pois as prais tem estado menos cheias e seu Antônio está voltando pra casa com picoles que não foram vendidos no período costumeiro.
 
-O filho de seu Antônio, Angelo, com 22 anos, estudante do curso técnico de informática resolveu ajudar o pai. Em entrevista, conseguiu saber que o pai compra 25 tipos de picolé sendo 12 de frutas distintas e 12 de sabores de doces. Descobriu também que o pai dele passa por 4 prais e perde tempo ao sair delas para cobrar das pessoas que compraram fiado. Perder tempo para combrar e incluir uma praia a mais no circuito significa deixar de vender, pois Seu Antônio dedica mais tempo dos seus momentos de sou cobrando e se deslocando.  
+O filho de seu Antônio, Angelo, com 22 anos, estudante do curso técnico de informática resolveu ajudar o pai. Em entrevista, conseguiu saber que o pai compra 25 tipos de picolé sendo 12 de frutas distintas e 13 de sabores de doces. Descobriu também que o pai dele passa por 4 prais e perde tempo ao sair delas para cobrar das pessoas que compraram fiado. Perder tempo para cobrar e incluir uma praia a mais no circuito significa deixar de vender, pois Seu Antônio dedica mais tempo cobrando e se deslocando.  
 Agora, Angelo vai criar o projeto de bancode dados para seu Antônio relacionando as entidades para tentar dar ao pai uma forma mais rápida de tomar decisões.
 
 ## Pratique
