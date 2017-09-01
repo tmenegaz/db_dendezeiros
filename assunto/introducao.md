@@ -136,7 +136,7 @@ Neste caso, há dados específicos em CLIENTE(nome, endereço, cidade, estado et
 
 > A tupla é uma estrutura de atributos que residem em uma entidade.
 >
-> Quando transposta para o modelo físico uma tupla é chamada deregistro ou linha da tabela (entidade).
+> Quando transposta para o modelo físico uma tupla é chamada de registro ou linha da tabela (entidade).
 
 8. Qual a diferenção entre dado e informação?
 
