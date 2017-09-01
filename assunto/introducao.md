@@ -178,7 +178,8 @@ Neste caso, há dados específicos em CLIENTE(nome, endereço, cidade, estado et
 
 15. O que é GRANT e REVOKE em DCL?
 
-> GRANT é a concessão de acessoou funções
+> GRANT é a concessão de acesso
+>
 > REVOKE é a revogãção do concessão.  
 
 16. Qual a diferença entre sistema de banco de dados e sistema de gerenciados de banco de dados?
