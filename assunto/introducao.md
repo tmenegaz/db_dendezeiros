@@ -180,7 +180,7 @@ Neste caso, há dados específicos em CLIENTE(nome, endereço, cidade, estado et
 
 > GRANT é a concessão de acesso
 >
-> REVOKE é a revogãção do concessão.  
+> REVOKE é a revogação da concessão.  
 
 16. Qual a diferença entre sistema de banco de dados e sistema de gerenciados de banco de dados?
 
