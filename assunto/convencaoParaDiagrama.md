@@ -54,4 +54,8 @@ Melhorando o diagrama versão 2
 
 ![cd e gravador_v3](img/cdGravadora_v3.png "relação entre CD e Gravadora")
 
+### Referência externa para estudo.
+
+[UNIP](http://www.noginfo.com.br/arquivos/CC_MDados_07.pdf)
+
 
