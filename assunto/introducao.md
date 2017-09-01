@@ -144,6 +144,14 @@ Neste caso, há dados específicos em CLIENTE(nome, endereço, cidade, estado et
 
 9. O que é SGBD?
 
+> Um Sistema Gerenciador de Banco de Dados é uma coleção de programas para *criar* estruturas, *manter* dados, *gerenciar* as *transações* efetuadas e a *extração* das informações. Tudo isso com rapidez e segurança.
+>
+> Algumas características principais:
+>
+> - *controle de redundância* - as informações devem possuir um mínimo de redundância para ser ser um meio de garatir a estabilidade do modelo.
+> - *compartilhamento de dados* - as informações devem estar disponível para qualquer número de usuários de forma concomitante e segura.
+> - *controle de acesso* - necessidade de saber quem pode realizar qual função dentro do banco de dados.
+
 10. Apresente 3 exemplos de SGBD e suas principais características.
 
 11. Em TI, por que é importante o descolamento ou desacoplamento?
@@ -166,7 +174,12 @@ Neste caso, há dados específicos em CLIENTE(nome, endereço, cidade, estado et
 
 14. Para que serve a linguagem SQL?
 
-15. O que é GRANT e REVOKE em DCL?  
+> A SQL serva para a criação de componentes de banco dados como tabelas e índices; para a manipulação dos dados armazenados no banco de dados; para extrair dados do banco de dados e para prover a segurança interna do banco de dados.
+
+15. O que é GRANT e REVOKE em DCL?
+
+> GRANT é a concessão de acessoou funções
+> REVOKE é a revogãção do concessão.  
 
 16. Qual a diferença entre sistema de banco de dados e sistema de gerenciados de banco de dados?
 
@@ -174,9 +187,13 @@ Neste caso, há dados específicos em CLIENTE(nome, endereço, cidade, estado et
 
 18. Por que a linguagem SQL não é considerada uma linguagem procedural?
 
+> Por meio da SQL é possível especificar o *que deve ser feito* e não como deve ser feito. Essa caracteristica de *como deve ser feito* é muito própria das linguagens procedurais.
+
 19. Como instalar um SGBD em um sistema operacional?
 
 20. O que é clustering?
+
+> "Clustering é uma técnica de Data Mining para fazer agrupamentos automáticos de dados segundo seu grau de semelhança. O critério de semelhança faz parte da definição do problema e, dependendo, do algoritmo." [wikipedia](https://pt.wikipedia.org/wiki/Clustering) 
 
 [Voltar ao topo (Conceitos)](#conceitos)
 
