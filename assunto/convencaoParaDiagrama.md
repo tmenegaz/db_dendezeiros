@@ -56,7 +56,7 @@ Melhorando o diagrama versão 2
 
 Utlize o modelo de diagrama para transpor os esquemas estudados em cada estudo de caso:
 
-- [Loja de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso1.md)
+- [Loja de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso1.md#voltar-para-o-enunciado-do-relacionamentos-do-catálogo-de-cds)
 
 ### Referência externa para estudo.
 

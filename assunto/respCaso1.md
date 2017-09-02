@@ -23,6 +23,8 @@
 
 > - **Cada** *CD* **deve ser** *gravado* por **uma única** *gravadora*.
 > - **Cada** *gravadora* **deve ter** *gravado* **um ou mais** *CDs*.
+>
+> ![cd_x_gravadora](img/cd_x_gravadora.png "cd_x_gravadora")
 > 
 > - **Cada** *CD* **deve ter** *precificado* **um único** *Preço*.
 > - **Cada** *Preço* **deve estar** *precificado* em **um ou mais** *CDs*.
