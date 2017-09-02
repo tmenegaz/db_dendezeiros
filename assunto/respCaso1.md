@@ -28,6 +28,8 @@
 > 
 > - **Cada** *CD* **deve ter** *precificado* **um único** *Preço*.
 > - **Cada** *Preço* **deve estar** *precificado* em **um ou mais** *CDs*.
+>
+> ![cd_x_preco](img/cd_x_preco.png "cd_x_preco")
 > 
 > - **Cada** *CD* **deve ter** *garavado* **uma ou mais** *músicas*.
 > - **Cada** *música* **deve estar** *garavada* em **um ou mais** *CDs*.
