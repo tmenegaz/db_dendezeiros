@@ -56,4 +56,4 @@ Para a obtenção dos pontos a equipe terá que entregar parcelas do projeto que
 Caso alguma parcial do trabalho não seja entregue na data acordada a equipe receberá nota zero referente a parcela.
 
 
-
+[Localize-se: lista das aulas](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas)
