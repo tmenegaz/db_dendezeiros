@@ -17,6 +17,8 @@ Agora, Angelo vai criar o projeto de bancode dados para seu Antônio relacionand
 
 ## Pratique
 
+Para cada estudo de caso apresentado faça o que segue abaixo.
+
 - identifique as entidades;
 - dê um nome a cada entidade;
 - há informações relevantes da entidade necessárias às operações da empresa/profissional?
@@ -31,14 +33,21 @@ Sempre que duas entidades apresentarem *interdependência*, indica-se um relacio
 
 Use o seguinte esquema por meio de substituição:
 
-**Cada** *entidade!* **deve ter ou pode ter** *relacionamento* **uma ou mais ou uma única** *entidade2*
+**Cada** *entidade1* **deve ter ou pode ter** *relacionamento* **uma ou mais ou uma única** *entidade2*
 
 Então usando a subtituição temos:
 
 - **Cada** *CD* **deve ser** *gravado* por **uma única** *gravadora*.
-- **Cada** *picolé* **deve ser** *vendido* com **um único** *tipo* de sabor.
+- **Cada** *gravadora* **pode ter** *gravado* **um ou mais** *CDs*.
 
-Você deve ter notado que cada relacionamento contém um nome; um verbo ou uma locução no particípio passado.Tem também a determinação de opcionalidade(deve ou pode ...) e um certo grau de cardinalidade (uma única ou uma ou mais).
+---
+
+- **Cada** *vendedor* **deve ter** *trabalhado* em **uma ou mais** *praias*.
+- **Em cada** *praia* **pode ter** *trabalhado* **um ou mais** *vendedores*.
+
+Você deve ter notado que cada relacionamento contém um **nome**; um **verbo** ou uma **locução verbal** ou um **verbo no particípio passado**.Tem também a determinação condicional de obrigatoriedade ou opcionalidade (**deve** ou **pode** respectivamente) e um certo grau de cardinalidade (**uma única** ou **uma ou mais**).
+
+Agora, para cada estudo de caso apresentado determine os relacionamentos por meio do *esquema*.
 
 
 [Localize-se: lista das aulas](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas)
