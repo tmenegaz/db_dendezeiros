@@ -34,6 +34,8 @@
 > - **Cada** *CD* **deve ter** *garavado* **uma ou mais** *músicas*.
 > - **Cada** *música* **deve estar** *garavada* em **um ou mais** *CDs*.
 > 
+> ![cd_x_musica](img/cd_x_musica.png "cd_x_musica")
+>
 > **OBS**
 > Cd tem relação com música ou tem relação  com faixa?
 > Se a música tem relação com faixa então a música não precisa ter relação com CD?
