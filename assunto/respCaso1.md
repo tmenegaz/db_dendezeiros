@@ -52,3 +52,6 @@
 > 
 > - **Cada** *Banda* **deve ter** *elencado* **um ou mais** *Artistas*.
 > - **Cada** *Artista* **deve ser** *elencado* em **uma ou mais** *Bandas*.
+
+
+[Localize-se: lista das aulas](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas)

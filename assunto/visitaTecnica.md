@@ -19,3 +19,6 @@ Veja o endereço no mapa para saber onde fica a empresa no linke Solutis:
 - **[Solutis](https://goo.gl/maps/i79xRKYjztC2): Av. Tancredo Neves, 1186, Ed. Catabas Center, 8 º andar, sala 802**
 
 - *horário da visita técnica*: **10h00**
+
+
+[Localize-se: lista das aulas](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas)

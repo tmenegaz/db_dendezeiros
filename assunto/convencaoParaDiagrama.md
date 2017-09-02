@@ -59,3 +59,4 @@ Melhorando o diagrama versão 2
 [UNIP](http://www.noginfo.com.br/arquivos/CC_MDados_07.pdf)
 
 
+[Localize-se: lista das aulas](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas)

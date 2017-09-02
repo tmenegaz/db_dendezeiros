@@ -39,3 +39,6 @@ Então usando a subtituição temos:
 - **Cada** *picolé* **deve ser** *vendido* com **um único** *tipo* de sabor.
 
 Você deve ter notado que cada relacionamento contém um nome; um verbo ou uma locução no particípio passado.Tem também a determinação de opcionalidade(deve ou pode ...) e um certo grau de cardinalidade (uma única ou uma ou mais).
+
+
+[Localize-se: lista das aulas](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas)

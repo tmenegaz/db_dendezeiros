@@ -96,3 +96,6 @@ Trabalhe metodicamente pelas etapas do ciclo de vida e corrija erros de projeto 
 <a name="myfootnote9">9.</a> representa a dependência entre elementos de dados que são identificadores exclusivos.
 
 <a name="myfootnote10">10.</a> [IMS](https://www.ibm.com/support/knowledgecenter/pt-br/SSKM8N_7.0.0/com.ibm.etools.mft.doc/ac66140_.htm) 
+
+
+[Localize-se: lista das aulas](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas)
