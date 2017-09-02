@@ -12,9 +12,9 @@ Os atributos das entidades serão representados  dentro da entidade que irá, en
 
 ![entidade e atributo](img/entidadeAtributo.png "Entidade e atributo")
 
-A união de 2 entidades que se relacionam se dá por meio de uma linha. A condição da relação e representada pela linha quando essa for contínua indicando, então, obrigatóriedade (**deve**) ou com um círculo vazia para representar opcionalidade (**pode**), em uma das extremidades da linha.
+A união de 2 entidades que se relacionam se dá por meio de uma linha. A condição da relação é representada pela linha quando essa for contínua, indicando obrigatóriedade (**deve**) ou com um círculo vazia para representar opcionalidade (**pode**), em uma das extremidades da linha.
 
-Quanto ao grau de cardinalidade, um traço na vertical ( **|** ) em uma das extremidades irá indicar uma ocorrência e um tridente, também em uma das pontas, indicará mais de uma ocorrência.
+Quanto ao grau de cardinalidade, um traço na vertical ( **|** ) em uma das extremidades indicará uma ocorrência e um tridente, também em uma das pontas, indicará mais de uma ocorrência.
 
 Agora, é importante esclarecer que existem *3* graus de cardinalidade.
 
@@ -32,8 +32,8 @@ Essa outra figura ilustra as cardinalidades para demonstrar uma condição *opci
 
 Tomemos esse relacionamento para iustaração, a saber:
 
-**Cada** *CD* **deve ser** *gravado* por **uma única** *Gravadora*.
-**Cada** *Gravadora* **deve ter** *gravado* **um ou mais** *CDs*.
+- **Cada** *CD* **deve ser** *gravado* por **uma única** *Gravadora*.
+- **Cada** *Gravadora* **deve ter** *gravado* **um ou mais** *CDs*.
 
 Tem-se então:
 
