@@ -121,3 +121,5 @@ Neste caso, há dados específicos em CLIENTE(nome, endereço, cidade, estado et
 20. O que é clustering?
 
 > "Clustering é uma técnica de Data Mining para fazer agrupamentos automáticos de dados segundo seu grau de semelhança. O critério de semelhança faz parte da definição do problema e, dependendo, do algoritmo." [wikipedia](https://pt.wikipedia.org/wiki/Clustering) 
+
+[Voltar ao assunto: Conceitos](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/introducao.md#conceitos)
