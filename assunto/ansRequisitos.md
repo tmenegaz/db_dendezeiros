@@ -59,7 +59,7 @@ Visto de outro modo o que foi dito acima, tem-se:
 
 |entidade|relacionamento|condição|cardinalidade|
 |:------:|:------------:|:------:|:----------:|
-|CD|gravado|deve ser|uma ou mais|
+|CD|gravado|deve ser|uma única|
 |Gravadora|gravado|pode ter|um ou mais|
 |Vendedor|trabalhado|deve ter|uma ou mais|
 |Praia|trabalhado|pode ter|um ou mais|
