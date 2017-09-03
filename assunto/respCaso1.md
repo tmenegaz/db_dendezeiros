@@ -54,9 +54,13 @@
 > - **Cada** *Autor* **deve ter** *composta* **uma ou mais** *músicas*.
 > - **Cada** *música* **deve ser** *composta* por **um ou mais** *Autores*.
 > 
+> ![musica_x_autor](img/musica_x_autor.png "musica_x_autor")
+>
 > - **Cada** *Artista* **deve ter** *cantado* **uma ou mais** *músicas*.
 > - **Cada** *música* **deve ser** *cantada* por **um ou mais** *Artistas*
 > 
+> ![musica_x_artista](img/musica_x_artista.png "musica_x_artista")
+>
 > - **Cada** *Música* **deve ser** *tocada* por **uma ou mais** *Bandas*.
 > - **Cada** *Banda* **deve ter** *tocado* **um ou mais** *Música*.
 > 
