@@ -45,15 +45,24 @@ Use o seguinte esquema por meio de substituição:
 
 Então usando a subtituição temos:
 
-- **Cada** *CD* **deve ser** *gravado* por **uma única** *gravadora*.
-- **Cada** *gravadora* **pode ter** *gravado* **um ou mais** *CDs*.
+- **Cada** *CD* **deve ser** *gravado* por **uma única** *Gravadora*.
+- **Cada** *Gravadora* **pode ter** *gravado* **um ou mais** *CDs*.
 
 ---
 
-- **Cada** *vendedor* **deve ter** *trabalhado* em **uma ou mais** *praias*.
-- **Em cada** *praia* **pode ter** *trabalhado* **um ou mais** *vendedores*.
+- **Cada** *Vendedor* **deve ter** *trabalhado* em **uma ou mais** *Praias*.
+- **Em cada** *Praia* **pode ter** *trabalhado* **um ou mais** *Vendedores*.
 
-Você deve ter notado que cada relacionamento contém um **nome**; um **verbo** ou uma **locução verbal** ou um **verbo no particípio passado**.Tem também a determinação condicional de obrigatoriedade ou opcionalidade (**deve** ou **pode** respectivamente) e um certo grau de cardinalidade (**uma única** ou **uma ou mais**).
+Você deve ter notado que cada relacionamento contém um **nome**; um **verbo** ou uma **locução verbal** ou um **verbo no particípio passado** que estabelece a relação.Tem também a determinação condicional de obrigatoriedade ou opcionalidade (**deve** ou **pode** respectivamente) e um certo grau de cardinalidade (**uma única** ou **uma ou mais**).
+
+Visto de outro modo o que foi dito acima, tem-se:
+
+|entidade|relacionamento|condição|carinalidade|
+|:------:|:------------:|:------:|:----------:|
+|CD|gravado|deve ser|uma ou mais|
+|Gravadora|gravado|pode ter|um ou mais|
+|Vendedor|trabalhado|deve ter|uma ou mais|
+|Praia|trabalhado|pode ter|um ou mais|
 
 Agora, para cada estudo de caso apresentado determine os relacionamentos por meio do *esquema*.
 
