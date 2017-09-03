@@ -1,8 +1,8 @@
-# [Voltar para o caso Loja de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#loja-de-cds)
+# Caso Loja de CDs
+
+## [Voltar para o caso Loja de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#loja-de-cds)
 
 ## [Voltar para o enunciado da prática do catálogo de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#pratique)
-
-## Caso Loja de CDs
 
 > Nomo do projeto: **Católodo de CDs**
 >
