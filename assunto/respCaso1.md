@@ -62,8 +62,10 @@
 > ![musica_x_artista](img/musica_x_artista.png "musica_x_artista")
 >
 > - **Cada** *Música* **deve ser** *tocada* por **uma ou mais** *Bandas*.
-> - **Cada** *Banda* **deve ter** *tocado* **um ou mais** *Música*.
+> - **Cada** *Banda* **deve ter** *tocado* **uma ou mais** *Música*.
 > 
+> ![musica_x_banda](img/musica_x_banda.png "musica_x_banda")
+>
 > - **Cada** *Banda* **deve ter** *elencado* **um ou mais** *Artistas*.
 > - **Cada** *Artista* **deve ser** *elencado* em **uma ou mais** *Bandas*.
 
