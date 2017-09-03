@@ -17,7 +17,10 @@
 > 7. Artista - conteúdo do CD
 > 8. Banda - conteúdo do CD
 >
+> Representação das entidades com alguns atributos, do projeto Catalógo de CDs
+>
 > ![diagrama do catálogo de CDs com alguns atributos](img/entidadesProjetoCatCDs.png "Diagrama do catálogo de CDs")
+> 
 
 ## [Voltar para o enunciado do relacionamentos do catálogo de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#relacionamento)
 
