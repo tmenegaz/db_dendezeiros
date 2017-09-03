@@ -57,7 +57,7 @@ Você deve ter notado que cada relacionamento contém um **nome**; um **verbo** 
 
 Visto de outro modo o que foi dito acima, tem-se como exemplo:
 
-|entidade</br>nome|relacionamento|condição|cardinalidade|
+|entidade</br>(nome)|relacionamento</br>(particípio passado)|condição</br>(obrigatório ou opcional)|cardinalidade</br>(um ou muitos)|
 |:------:|:------------:|:------:|:----------:|
 |CD|gravado|deve ser|uma única|
 |Gravadora|gravado|pode ter|um ou mais|
