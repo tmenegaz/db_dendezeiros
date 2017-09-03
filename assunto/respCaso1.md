@@ -43,10 +43,14 @@
 > 
 > - **Cada** *Faixa* **deve estar** *incluida* em **uma ou mais** *CD*.
 > - **Cada** *CD* **deve ter** *incluido* **uma ou mais** *Faixa*
-> 
+>
+> ![cd_x_faixa](img/cd_x_faixa.png "cd_x_faixa")
+>
 > - **Cada** *Faixa* **deve ter** *referenciado* **uma única** *músicas*.
 > - **Cada** *música* **deve estar** *referenciada* em **uma única** *Faixa*.
 > 
+> ![musica_x_faixa](img/musica_x_faixa.png "musica_x_faixa")
+>
 > - **Cada** *Autor* **deve ter** *composta* **uma ou mais** *músicas*.
 > - **Cada** *música* **deve ser** *composta* por **um ou mais** *Autores*.
 > 
