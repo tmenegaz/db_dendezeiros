@@ -15,7 +15,7 @@ Seu antônio tem 65 anos e vende capelinha na praia de 4ª à domingo. Ele costu
 O filho de seu Antônio, Angelo, com 22 anos, estudante do curso técnico de informática resolveu ajudar o pai. Em entrevista, conseguiu saber que o pai compra 25 tipos de picolé sendo 12 de frutas distintas e 13 de sabores de doces. Descobriu também que o pai dele passa por 4 prais e perde tempo ao sair delas para cobrar das pessoas que compraram fiado. Perder tempo para cobrar e incluir uma praia a mais no circuito significa deixar de vender, pois Seu Antônio dedica mais tempo cobrando e se deslocando.  
 Agora, Angelo vai criar o projeto de bancode dados para seu Antônio relacionando as entidades para tentar dar ao pai uma forma mais rápida de tomar decisões.
 
-> [Análise desenvolvida para o caso Loja de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso2.md#caso-vendedor-de-capelinha)
+> [Análise desenvolvida para o caso Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso2.md#caso-vendedor-de-capelinha)
 
 ---
 
