@@ -42,7 +42,7 @@
 > o que acham?
 > 
 > - **Cada** *Faixa* **deve estar** *incluida* em **uma ou mais** *CD*.
-> - **Cada** *CD* **deve ter** *incluido* **um ou mais** *Faixa*.m
+> - **Cada** *CD* **deve ter** *incluido* **uma ou mais** *Faixa*
 > 
 > - **Cada** *Faixa* **deve ter** *referenciado* **uma única** *músicas*.
 > - **Cada** *música* **deve estar** *referenciada* em **uma única** *Faixa*.
