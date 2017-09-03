@@ -57,7 +57,7 @@ Você deve ter notado que cada relacionamento contém um **nome**; um **verbo** 
 
 Visto de outro modo o que foi dito acima, tem-se:
 
-|entidade|relacionamento|condição|carinalidade|
+|entidade|relacionamento|condição|cardinalidade|
 |:------:|:------------:|:------:|:----------:|
 |CD|gravado|deve ser|uma ou mais|
 |Gravadora|gravado|pode ter|um ou mais|
