@@ -41,7 +41,7 @@
 > Se a música tem relação com faixa então a música não precisa ter relação com CD?
 > o que acham?
 > 
-> - **Cada** *Faixa* **deve estar** *incluida* em **uma ou mais** *CD*.
+> - **Cada** *Faixa* **deve estar** *incluida* em **um ou mais** *CD*.
 > - **Cada** *CD* **deve ter** *incluido* **uma ou mais** *Faixa*
 >
 > ![cd_x_faixa](img/cd_x_faixa.png "cd_x_faixa")
