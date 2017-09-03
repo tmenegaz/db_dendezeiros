@@ -55,7 +55,7 @@ Então usando a subtituição temos:
 
 Você deve ter notado que cada relacionamento contém um **nome**; um **verbo** ou uma **locução verbal** ou um **verbo no particípio passado** que estabelece a relação.Tem também a determinação condicional de obrigatoriedade ou opcionalidade (**deve** ou **pode** respectivamente) e um certo grau de cardinalidade (**uma única** ou **uma ou mais**).
 
-Visto de outro modo o que foi dito acima, tem-se:
+Visto de outro modo o que foi dito acima, tem-se como exemplo:
 
 |entidade|relacionamento|condição|cardinalidade|
 |:------:|:------------:|:------:|:----------:|
