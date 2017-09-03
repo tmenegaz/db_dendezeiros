@@ -31,6 +31,10 @@ Para cada estudo de caso apresentado faça o que segue abaixo.
     - ex.: CD é o produto básico de venda .... Praia é o ponto de venda dos picolés
 - faça um diagrama com pelo menos, alguns de seus atributos.
 
+> [Prática Loja de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso1.md#prática)
+>
+> [Prática Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso2.md#prática)
+
 ## Relacionamento
 
 Sempre que duas entidades apresentarem *interdependência*, indica-se um relacionamento entre elas. (picolé de frutas ou venda na praia).
@@ -52,6 +56,10 @@ Então usando a subtituição temos:
 Você deve ter notado que cada relacionamento contém um **nome**; um **verbo** ou uma **locução verbal** ou um **verbo no particípio passado**.Tem também a determinação condicional de obrigatoriedade ou opcionalidade (**deve** ou **pode** respectivamente) e um certo grau de cardinalidade (**uma única** ou **uma ou mais**).
 
 Agora, para cada estudo de caso apresentado determine os relacionamentos por meio do *esquema*.
+
+> [Relacionamentos caso Loja de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso1.md#relacionamento)
+>
+> [Relacionamentos Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso2.md#relacionamento)
 
 
 [Localize-se: lista das aulas](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas)

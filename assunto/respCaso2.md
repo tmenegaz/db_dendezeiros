@@ -1,8 +1,10 @@
 # Caso Vendedor de capelinha
 
-## [Voltar para o caso Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#vendedor-de-capelinha)
+- [Voltar para o caso Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#vendedor-de-capelinha)
 
-## [Voltar para o enunciado da prática do Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#pratique)
+# Prática
+
+- [Voltar para o enunciado da prática do Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#pratique)
 
 > Nomo do projeto: **Vendedor de capelinha**
 >
@@ -21,7 +23,9 @@
 > ![diagrama do projeto Vendedor de capelinha com alguns atributos](img/entidadesProjetoVendCap.png "Diagrama do Vendedor de capelinha")
 > 
 
-## [Voltar para o enunciado do relacionamentos do Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#relacionamento)
+## Relacionamento
+
+- [Voltar para o enunciado do relacionamentos do Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#relacionamento)
 
 > - **Cada** *CD* **deve ser** *gravado* por **uma única** *gravadora*.
 > - **Cada** *gravadora* **deve ter** *gravado* **um ou mais** *CDs*.
