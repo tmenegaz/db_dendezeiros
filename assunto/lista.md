@@ -30,6 +30,8 @@
 
 * [db_dendezeiros_aula5.1](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/convencaoParaDiagrama.md#convenção-para-a-utilização-do-diagrama)
 
+* [db_dendezeiros_aula6](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/av1.md#gabarito)
+
 ---
 
 [Voltar ao topo (Lista de apresentações)](#lista-de-aulas)

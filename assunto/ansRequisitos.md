@@ -27,8 +27,9 @@ Para cada estudo de caso apresentado faça o que segue abaixo.
 - dê um nome a cada entidade;
 - há informações relevantes da entidade necessárias às operações da empresa/profissional?
 - cada instância da entidade possui um identificador único(chave)?
-- escreva uma descrição das supostas entidades
-    - ex.: CD é o produto básico de venda .... Praia é o ponto de venda dos picolés
+- escreva uma descrição das supostas entidades, por exemplo:
+    - CD é o produto básico de venda
+    - Praia é o ponto de venda dos picolés
 - faça um diagrama com pelo menos, alguns de seus atributos.
 
 > [Prática Loja de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso1.md#prática)
