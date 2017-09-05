@@ -27,6 +27,7 @@
 - Cada *Opcao_disciplina* **pode ser** obrigatória ou não.
 
 5. Resposta:
+
     ![Resposta_q5](img/q5.png "Resposta q5 da av1")
 
 [Localize-se: lista das aulas](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas)
