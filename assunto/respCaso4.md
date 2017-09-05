@@ -4,7 +4,7 @@
 
 ## Prática
 
-[Voltar para o enunciado da prática do Treinamento SA](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#pratica)
+[Voltar para o enunciado da prática do Treinamento SA](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#pratique)
 
 > Prática feita em sala
 
