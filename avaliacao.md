@@ -31,7 +31,7 @@ Mas, se o estudante não obtiver pontuação suficiente durante o cronograma de 
 
     - Prova realizada em 04/09/2017
 
-    * [Gabarito da 1ª avaliação](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/av1.md#gabarito)
+    [Gabarito da 1ª avaliação](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/av1.md#gabarito)
 
 - A *2ª* avaliação está programada para o dia **19/09/2017** - terça-feira - e será uma *avaliação formativa*.
 
