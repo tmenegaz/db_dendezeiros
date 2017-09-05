@@ -32,6 +32,12 @@
 
 * [db_dendezeiros_aula6](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/av1.md#gabarito)
 
+* [db_dendezeiros_aula7](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#aluguel-de-filmes)
+
+* [db_dendezeiros_aula7.1](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#imóvel)
+
+* [db_dendezeiros_aula7.2](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#treinamento-sa)
+
 ---
 
 [Voltar ao topo (Lista de apresentações)](#lista-de-aulas)

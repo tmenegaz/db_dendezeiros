@@ -2,7 +2,7 @@
 
 - [Voltar para o caso Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#vendedor-de-capelinha)
 
-# Prática
+## Prática
 
 - [Voltar para o enunciado da prática do Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#pratique)
 

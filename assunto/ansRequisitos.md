@@ -21,7 +21,18 @@ Agora, Angelo vai criar o projeto de bancode dados para seu Antônio relacionand
 
 ## Aluguel de filmes
 
-A pequena locadora da Ana Luiza tem filmes com gêneros distintos organizados por categorias. Cada cliente pode locar seus filmes mediante o pagamento de R$4,50 para a categoria lançamento ou R$ 3,00 para a categoria catálogo. Esse pagamento pode ser feito no atoda locação ou na devolução. Ana luiza pretende ter outras faixas de preços para categorias que serão definidas. Para fazer a locação o cliente precisa preencher um formulário com *nome*, *endereço*, *telefone*, *email*, *rg* e *cpf*. A locação fica registrada na locadora que entraga uma cópia desse registro para o cliente com a *data da locação*, a *data da devolução* e *estatus do pagamento*, apenas para controle do cliente. Os filmes tem destaque para caracerísticas como *nome*, *duração*, *sinopse*, *foto*, *estado da locação* e *quantidade de filmes disponíveis*, para indicar se existe alguma cópia do filme por alugar.
+A pequena locadora da Ana Luiza tem filmes com gêneros distintos organizados por categorias. Cada cliente pode locar seus filmes mediante o pagamento de R$4,50 para a categoria lançamento ou R\$ 3,00 para a categoria catálogo. Esse pagamento pode ser feito no ato da locação ou na devolução. Ana Luiza pretende ter outras faixas de preços para categorias que serão definidas. Para fazer a locação o cliente precisa preencher um formulário com *nome*, *endereço*, *telefone*, *email*, *rg* e *cpf*. A locação fica registrada na locadora que entrega uma cópia desse registro para o cliente com a *data da locação*, a *data da devolução* e *status do pagamento*, apenas para controle do cliente. Os filmes tem destaque para características como *nome*, *duração*, *sinopse*, *foto*, *estado da locação* e *quantidade de filmes disponíveis*, para indicar se existe alguma cópia do filme por alugar.
+
+> [Diagrama do caso Aluguel de filmes](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso3.md#caso-aluguel-de-filmes)
+
+## Imóvel
+
+Um vendedor de imóveis atua ofertando esses bens em anuncios que tem  o valor do bem classificado em faixa mínima e máxima de preço. No anuncio existe seu *endereço*, *área útil*, *área total*, *dimensões*, *nº da oferta* e *data de lançamento*. Os imóveis estão espalhados por todo o território nacional com indicação de *bairro*, *cidade*, e *estado*. O comprador para  realizar a transação precisa preencher um cadastro com *nome*, *endereço*, *cpf*, *telefone* e *e-mail*. Para comprar, além do cadastro, o cliente deve efetuar um lance com o valor da oferta e a data do lance. O vendedor somente poderá finalizar a transação se indicar seus dados em formulário semelhante ao do cliente, com o preenchimento do campo *creci*.
+
+## Treinamento SA
+
+Sou gerente de uma empresa de treinamento que ministra vários cursos técnicos. Esses cursos são identificados por *código*, *nome* e *tempo de duração*. Montamos cursos com base em turmas que ofertamos. As turmas tem dias fixos da semana, que identificamos com a letra inicial do dia da semana **S** para segunda-feira, **T** para terça-feira etc. Horário específico para *início* e *fim*, além de um *preço*. Um instrutor pode dar aulas para várias *turmas* e nós não trocamos os respectivos instrutores enquanto durar o *curso* de uma *turma*.
+É importante saber o *nome*, *endereço*, *telefone* e *e-mail* de cada instrutor. Os alunos estão sempre vinculados a uma *turma*. Devemos saber o *nome*, *telefone* e *endereço* de cada aluno.
 
 ## Pratique
 
