@@ -35,7 +35,7 @@ Mas, se o estudante não obtiver pontuação suficiente durante o cronograma de 
 
 ### Devolução das provas corrigidas
 
-    - data devolução: 11/09/2017
+- data da devolução: `11/09/2017`
 
 - A *2ª* avaliação está programada para o dia **19/09/2017** - terça-feira - e será uma *avaliação formativa*.
 
