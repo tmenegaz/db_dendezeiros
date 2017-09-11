@@ -32,7 +32,9 @@
 
 * [db_dendezeiros_aula5.1](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/convencaoParaDiagrama.md#convenção-para-a-utilização-do-diagrama)
 
-* [db_dendezeiros_aula6](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/av1.md#gabarito)
+* [db_dendezeiros_aula6](https://github.com/tmenegaz/db_dendezeiros/blob/master/avaliacao.md#A-1ª-avaliação)
+
+* [db_dendezeiros_aula61](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/av1.md#gabarito)
 
 * [db_dendezeiros_aula7](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#aluguel-de-filmes)
 
