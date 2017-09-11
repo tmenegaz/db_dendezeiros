@@ -62,7 +62,7 @@ Para cada estudo de caso apresentado faça o que segue abaixo para [elicitar req
 
 ## Relacionamento
 
-Sempre que duas entidades apresentarem *interdependência*, indica-se um relacionamento entre elas. (picolé de frutas ou venda na praia).
+Sempre que duas entidades apresentarem *interdependência*, indica-se um relacionamento entre elas (picolé de frutas ou venda na praia), que deverá estar [normalizado](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/formas_normais.md#normalização).
 
 Use o seguinte esquema por meio de substituição:
 
