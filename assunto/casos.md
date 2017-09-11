@@ -44,7 +44,8 @@ Mariana trabalha em uma fábrica que vende seus produtos para pessoas naturais (
 
 ## Pratique
 
-Para cada estudo de caso apresentado faça o que segue abaixo.
+
+Para cada estudo de caso apresentado faça o que segue abaixo para [elicitar requisitos](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#análise-de-requisitos).
 
 - identifique as entidades;
 - dê um nome a cada entidade;

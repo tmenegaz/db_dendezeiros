@@ -6,7 +6,7 @@ O estudante interessado em recupera `20%` da prova deverá entregar, em sua pró
 
 - prazo: `12/09/2017 – 23h59`
 - processo:
-    - [elicitar requisitos](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#pratique)
+    - [elicitar requisitos](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#análise-de-requisitos)
     - [estabelecer relacionamentos entre as entidades](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#relacionamento)
     - [aplicar a regra da 1ª forma normal](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/formas_normais.md#1ª-forma-normal)
     - [aplicar a regra da 2ª forma normal](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/formas_normais.md#2ª-forma-normal)
