@@ -21,17 +21,17 @@ Mas, se o estudante não obtiver pontuação suficiente durante o cronograma de 
 
 ## Assunto para a prova:
 
-    - Estudar do ciclo de vida, desde elicitação de requisitos até construção de diagrama com as entidades e seus relacionamentos (condicionais e cardinais).
+- Estudar do ciclo de vida, desde elicitação de requisitos até construção de diagrama com as entidades e seus relacionamentos (condicionais e cardinais).
 
-    [Estudo de caso](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#estudos-de-caso)
-    
-    - Dominar as 20 questões abertar, respondidas. 
+[Estudo de caso](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#estudos-de-caso)
 
-    [Exercício](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/introducao.md#exercícios)
+- Dominar as 20 questões abertar, respondidas. 
 
-    - Prova realizada em 04/09/2017
+[Exercício](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/introducao.md#exercícios)
 
-    [Gabarito da 1ª avaliação](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/av1.md#gabarito)
+- Prova realizada em 04/09/2017
+
+[Gabarito da 1ª avaliação](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/av1.md#gabarito)
 
 ### Devolução das provas corrigidas
 
