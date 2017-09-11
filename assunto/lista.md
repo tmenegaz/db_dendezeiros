@@ -32,7 +32,7 @@
 
 * [db_dendezeiros_aula5.1](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/convencaoParaDiagrama.md#convenção-para-a-utilização-do-diagrama)
 
-* [db_dendezeiros_aula6](https://github.com/tmenegaz/db_dendezeiros/blob/master/avaliacao.md#a-1ª-avaliação)
+* [db_dendezeiros_aula6](https://github.com/tmenegaz/db_dendezeiros/blob/master/avaliacao.md#A-1%C2%AA-avalia%C3%A7%C3%A3o)
 
 * [db_dendezeiros_aula61](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/av1.md#gabarito)
 
