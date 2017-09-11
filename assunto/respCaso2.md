@@ -1,10 +1,10 @@
 # Caso Vendedor de capelinha
 
-- [Voltar para o caso Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#vendedor-de-capelinha)
+- [Voltar para o caso Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#vendedor-de-capelinha)
 
 ## Prática
 
-- [Voltar para o enunciado da prática do Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#pratique)
+- [Voltar para o enunciado da prática do Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#pratique)
 
 > Nomo do projeto: **Vendedor de capelinha**
 >
@@ -25,7 +25,7 @@
 
 ## Relacionamento
 
-- [Voltar para o enunciado do relacionamentos do Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#relacionamento)
+- [Voltar para o enunciado do relacionamentos do Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#relacionamento)
 
 > - Ops!)
 >

@@ -24,19 +24,19 @@
 
 * [db_dendezeiros_aula3](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/visitaTecnica.md#visita-técnica)
 
-* [db_dendezeiros_aula4](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#loja-de-cds)
+* [db_dendezeiros_aula4](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#loja-de-cds)
 
-* [db_dendezeiros_aula5](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#vendedor-de-capelinha)
+* [db_dendezeiros_aula5](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#vendedor-de-capelinha)
 
 * [db_dendezeiros_aula5.1](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/convencaoParaDiagrama.md#convenção-para-a-utilização-do-diagrama)
 
 * [db_dendezeiros_aula6](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/av1.md#gabarito)
 
-* [db_dendezeiros_aula7](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#aluguel-de-filmes)
+* [db_dendezeiros_aula7](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#aluguel-de-filmes)
 
-* [db_dendezeiros_aula7.1](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#imóvel)
+* [db_dendezeiros_aula7.1](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#imóvel)
 
-* [db_dendezeiros_aula7.2](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#treinamento-sa)
+* [db_dendezeiros_aula7.2](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#treinamento-sa)
 
 ---
 

@@ -1,10 +1,10 @@
 # Caso Loja de CDs
 
-- [Voltar para o caso Loja de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#loja-de-cds)
+- [Voltar para o caso Loja de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#loja-de-cds)
 
 ## Prática
 
-- [Voltar para o enunciado da prática do catálogo de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#pratique)
+- [Voltar para o enunciado da prática do catálogo de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#pratique)
 
 > Nomo do projeto: **Católodo de CDs**
 >
@@ -28,7 +28,7 @@
 
 ## Relacionamento
 
-- [Voltar para o enunciado do relacionamentos do catálogo de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#relacionamento)
+- [Voltar para o enunciado do relacionamentos do catálogo de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#relacionamento)
 
 > - **Cada** *CD* **deve ser** *gravado* por **uma única** *gravadora*.
 > - **Cada** *gravadora* **deve ter** *gravado* **um ou mais** *CDs*.
