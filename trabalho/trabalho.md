@@ -12,7 +12,7 @@ O cilco de vida está dividido, para está atividade, da seguinte forma
 - **Projeto lógico**
     - **modelagem conceitual de dados**
     - **integração da visão**
-    - **tranformação do modelo conceitual em tabelas SQL**    
+    - **tranformação do modelo conceitual em tabelas SQL**  
     - **normalização de tabelas**
 - **Projeto físico**
 - **Implementação, monitoração e modificação do banco de dados**

@@ -19,11 +19,11 @@ Mas, se o estudante não obtiver pontuação suficiente durante o cronograma de 
 |:---:|:-------------:|:--:|:---:|
 |1,5|5|mista|2h|
 
-- Assunto para a prova:
+## Assunto para a prova:
 
     - Estudar do ciclo de vida, desde elicitação de requisitos até construção de diagrama com as entidades e seus relacionamentos (condicionais e cardinais).
 
-    [Estudo de caso](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#estudos-de-caso)
+    [Estudo de caso](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#estudos-de-caso)
     
     - Dominar as 20 questões abertar, respondidas. 
 
@@ -32,6 +32,10 @@ Mas, se o estudante não obtiver pontuação suficiente durante o cronograma de 
     - Prova realizada em 04/09/2017
 
     [Gabarito da 1ª avaliação](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/av1.md#gabarito)
+
+### Devolução das provas corrigidas
+
+    - data devolução: 11/09/2017
 
 - A *2ª* avaliação está programada para o dia **19/09/2017** - terça-feira - e será uma *avaliação formativa*.
 
@@ -51,13 +55,12 @@ Mas, se o estudante não obtiver pontuação suficiente durante o cronograma de 
 |:---:|:-------------:|:--:|:---:|
 |0,7|5|3,5|a combinar|
 
-
 - Cronograma das parciais da 4ª avaliação e seus critérios.
 - **parcial 1**
 
 |data|tempo|
 |:--:|:---:|
-|a combinar|a combinar|
+|20/09/2017|30min|
 
 - **parcial 2**
 
