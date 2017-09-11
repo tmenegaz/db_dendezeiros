@@ -34,6 +34,10 @@ Um vendedor de imóveis atua ofertando esses bens em anuncios que tem  o valor d
 Sou gerente de uma empresa de treinamento que ministra vários cursos técnicos. Esses cursos são identificados por *código*, *nome* e *tempo de duração*. Montamos cursos com base em turmas que ofertamos. As turmas tem dias fixos da semana, que identificamos com a letra inicial do dia da semana **S** para segunda-feira, **T** para terça-feira etc. Horário específico para *início* e *fim*, além de um *preço*. Um instrutor pode dar aulas para várias *turmas* e nós não trocamos os respectivos instrutores enquanto durar o *curso* de uma *turma*.
 É importante saber o *nome*, *endereço*, *telefone* e *e-mail* de cada instrutor. Os alunos estão sempre vinculados a uma *turma*. Devemos saber o *nome*, *telefone* e *endereço* de cada aluno.
 
+## Cadastro de pessoa
+
+Mariana trabalha em uma fábrica que vende seus produtos para pessoas naturais ()PF e pessoas jurídicas PJ. Uma das atividades é cadastrar cada cliente por meio de formulário: um para PF e outro para PJ. Mariana solicitou ajuda para as meninas do curso técnico de informática, pois elas mandam muito bem na disciplina de banco de dados,para elaboração de uma base de dados que posso agltinas os dois furmulário para ela. Os meninos també podem ajudar. Cada formulário tem os campos nome, sobrenome, telefone, endereço, data de nascimento e e-mail, incomums e os campos cpf e cnpj, distintos.  
+
 ## Pratique
 
 Para cada estudo de caso apresentado faça o que segue abaixo.
