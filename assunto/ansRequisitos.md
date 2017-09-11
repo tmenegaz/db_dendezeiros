@@ -1,3 +1,14 @@
+# Análise de requisitos
+
+Segundo *Toby [et al, 57]* A etapa 1 do ciclo de vida de um banco de dados e conhecida como análise de requisitos. Essa é a etapa mais importante e normalmente é a que exige mais trabalho. Serápor meio da entrevista que o projetista do *Banco de dados* poderá determinar a *exata finalidade* do uso do *Banco de dados* o o que ele *precisa conter*.
+
+Para isso deve-se ter em conta os objetivos básico da anális de requisitos, a saber:
+
+- delinear os requisitos de dados da empresa a partir dos *elementos de dados* básicos;
+- descrever uma informação de cada *elemento de dados* e os relacionamentos entre eles necessários para modelar esses requisits de dados;
+- determinar os tipos de transações que devem ser executadas no banco de dados e a interação entre as transações e  os *elementos de dados*.
+- 
+
 # Estudos de caso
 
 ## Loja de CDs
