@@ -38,6 +38,12 @@
 
 * [db_dendezeiros_aula7.2](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#treinamento-sa)
 
+* [db_dendezeiros_aula8](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/formas_normais.md#normalização)
+
+* [db_dendezeiros_aula9](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/atividade.md#atividade)
+
+* [db_dendezeiros_aula9.1](https://github.com/tmenegaz/db_dendezeiros/blob/master/avaliacao.md#devolução-das-provas-corrigidas)
+
 ---
 
 [Voltar ao topo (Lista de apresentações)](#lista-de-aulas)
