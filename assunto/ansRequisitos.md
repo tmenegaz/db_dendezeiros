@@ -8,6 +8,8 @@ Então Maria percebeu que devia mudar. Contatou os estudantes do curso técnico 
 
 > [Análise desenvolvida para o caso Loja de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso1.md#caso-loja-de-cds)
 
+---
+
 ## Vendedor de capelinha
 
 Seu antônio tem 65 anos e vende capelinha na praia de 4ª à domingo. Ele costuma comprar os picolés na fábrica, em grande quantidade e diversidade. Cada picolé custa, para seu Antônio, R$0,75 e ele vende por R$2,00 cada. O problema é que a quantidade de praias que ele percorre aumentou, pois as prais tem estado menos cheias e seu Antônio está voltando pra casa com picoles que não foram vendidos no período costumeiro.
@@ -25,6 +27,8 @@ A pequena locadora da Ana Luiza tem filmes com gêneros distintos organizados po
 
 > [Diagrama do caso Aluguel de filmes](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso3.md#caso-aluguel-de-filmes)
 
+---
+
 ## Imóvel
 
 Um vendedor de imóveis atua ofertando esses bens em anuncios que tem  o valor do bem classificado em faixa mínima e máxima de preço. No anuncio existe seu *endereço*, *área útil*, *área total*, *dimensões*, *nº da oferta* e *data de lançamento*. Os imóveis estão espalhados por todo o território nacional com indicação de *bairro*, *cidade*, e *estado*. O comprador para  realizar a transação precisa preencher um cadastro com *nome*, *endereço*, *cpf*, *telefone* e *e-mail*. Para comprar, além do cadastro, o cliente deve efetuar um lance com o valor da oferta e a data do lance. O vendedor somente poderá finalizar a transação se indicar seus dados em formulário semelhante ao do cliente, com o preenchimento do campo *creci*.
@@ -36,7 +40,7 @@ Sou gerente de uma empresa de treinamento que ministra vários cursos técnicos.
 
 ## Cadastro de pessoa
 
-Mariana trabalha em uma fábrica que vende seus produtos para pessoas naturais ()PF e pessoas jurídicas PJ. Uma das atividades é cadastrar cada cliente por meio de formulário: um para PF e outro para PJ. Mariana solicitou ajuda para as meninas do curso técnico de informática, pois elas mandam muito bem na disciplina de banco de dados,para elaboração de uma base de dados que posso agltinas os dois furmulário para ela. Os meninos també podem ajudar. Cada formulário tem os campos nome, sobrenome, telefone, endereço, data de nascimento e e-mail, incomums e os campos cpf e cnpj, distintos.  
+Mariana trabalha em uma fábrica que vende seus produtos para pessoas naturais (PF) e pessoas jurídicas (PJ). Uma das atividades é cadastrar cada cliente por meio de um *formulário*: um para PF e outro para PJ. Mariana solicitou ajuda para as meninas do curso técnico de informática, pois elas mandam muito bem na disciplina de banco de dados, para elaboração de uma base de dados que posso aglutinar os dois furmulário para ela. Os meninos també podem ajudar. Cada formulário tem os campos *nome*, *sobrenome*, *telefone*, *endereço*, *data de nascimento* e *e-mail*, incomums e os campos *cpf* e *cnpj*, distintos. Mariana solicitou o método da normalização, além da elicitação de requisitos e determinação dos relacionamentos.
 
 ## Pratique
 
