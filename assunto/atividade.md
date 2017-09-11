@@ -8,9 +8,9 @@ O estudante interessado em recupera `20%` da prova deverá entregar, em sua pró
 - processo:
     - [elicitar requisitos](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#análise-de-requisitos)
     - [estabelecer relacionamentos entre as entidades](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#relacionamento)
-    - [aplicar a regra da 1ª forma normal](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/formas_normais.md#1ª-forma-normal)
-    - [aplicar a regra da 2ª forma normal](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/formas_normais.md#2ª-forma-normal)
-    - [aplicar a regra da 3ª forma normal](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/formas_normais.md#3ª-forma-normal)
+    - [aplicar a regra da 1ª forma normal](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/formas_normais.md#primeira-forma-normal)
+    - [aplicar a regra da 2ª forma normal](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/formas_normais.md#segunda-forma-normal)
+    - [aplicar a regra da 3ª forma normal](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/formas_normais.md#terceira-forma-normal)
 
 
 

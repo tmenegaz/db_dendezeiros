@@ -1,14 +1,14 @@
 # Normalização
 
-## 1ª forma normal
+## Primeira forma normal
 
-## 2ª forma normal
+## Segunda forma normal
 
-## 3ª forma normal
+## Terceira forma normal
 
-## 4ª forma normal
+## Quarta forma normal
 
-## 5ª forma normal
+## Quinta forma normal
 
 Analise os requisitos e faça a normalização dos [casos](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#estudos-de-caso)
 
