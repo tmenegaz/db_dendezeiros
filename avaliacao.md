@@ -29,7 +29,7 @@ Mas, se o estudante não obtiver pontuação suficiente durante o cronograma de 
 
 [Exercício](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/introducao.md#exercícios)
 
-- Prova realizada em 04/09/2017
+- Prova realizada em `04/09/2017`
 
 [Gabarito da 1ª avaliação](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/av1.md#gabarito)
 
