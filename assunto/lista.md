@@ -24,7 +24,9 @@
 
 * [db_dendezeiros_aula3](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/visitaTecnica.md#visita-técnica)
 
-* [db_dendezeiros_aula4](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#loja-de-cds)
+* [db_dendezeiros_aula4](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#análise-de-requisitos)
+
+* [db_dendezeiros_aula4.1](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#loja-de-cds)
 
 * [db_dendezeiros_aula5](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#vendedor-de-capelinha)
 
