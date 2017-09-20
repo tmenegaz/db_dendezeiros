@@ -47,6 +47,18 @@ Programada para o dia **19/09/2017** - terça-feira - e será uma *avaliação f
 |:---:|:-------------:|:--:|:---:|
 |2,5|5|mista|2h|
 
+### Assunto para a prova:
+
+- Normalização e DFs.
+
+- Prova realizada em `19/09/2017`
+
+[Gabarito da 2ª avaliação](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/av2.md#gabarito)
+
+### Devolução das provas corrigidas
+
+- data da devolução: `em aberto`
+
 ## A *3ª* avaliação
 
 Programada para o dia **3/10/2017** - terça-feira - e será uma *avaliação formativa*.
@@ -61,7 +73,7 @@ Programada para o dia **10/10/2017** - terça-feira - e terá a *entrega e apres
 
 |valor|parciais|total|tempo|
 |:---:|:-------------:|:--:|:---:|
-|0,7|5|3,5|a combinar|
+|0,7|5|3,5|15min|
 
 - Cronograma das parciais da 4ª avaliação e seus critérios.
 - **parcial 1**
