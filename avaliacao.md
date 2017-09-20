@@ -35,7 +35,7 @@ Programada para o dia **4/09/2017** - segunda-feira - e será uma *avaliação d
 
 [Gabarito da 1ª avaliação](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/av1.md#gabarito)
 
-### Devolução das provas corrigidas
+### Devolução das provas corrigidas 1
 
 - data da devolução: `11/09/2017`
 
@@ -55,7 +55,7 @@ Programada para o dia **19/09/2017** - terça-feira - e será uma *avaliação f
 
 [Gabarito da 2ª avaliação](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/av2.md#gabarito)
 
-### Devolução das provas corrigidas
+### Devolução das provas corrigidas 2
 
 - data da devolução: `em aberto`
 
