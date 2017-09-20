@@ -19,7 +19,7 @@ O cilco de vida está dividido, para está atividade, da seguinte forma
 
 ## Regras
 
-Cada equipe deverá ter, em cada faze do ciclo de vida, um lider e seus liderados. Não será possível que um integrante da equipe expermente ser lider em mais de uma etapa. Máximo de 6 pessoaspor equipe.
+Cada equipe deverá ter, em cada faze do ciclo de vida, um lider e seus liderados. Não será possível que um integrante da equipe expermente ser lider em mais de uma etapa. Máximo de 6 pessoas por equipe.
 
 A etapa **Projeto lógico** será distribuida para dois lideres:
 
