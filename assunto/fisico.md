@@ -199,5 +199,5 @@ CHANGE COLUMN <nome_da_coluna> <novo_nome_da_coluna> <tipo_de_dado_coluna> <colu
 
 Façamos como exercício a transposição dos [casos](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#estudos-de-caso) estudados na etapa de *modelagem conceitual* ou *projeto lógico*.
 
-Obsere os seguintes postos para realizar a transposição:
+Obsere os seguintes pontos para realizar a transposição:
 
