@@ -2,11 +2,14 @@
 
 Após ter construido o modelo lógico do projeto de desenvolvimento do Banco de dados, por meio da *entidade e relacionamento* - *ER* em conjunto com a *normalização de daos* deve-se transpor o projeto para o *modelo físico*.
 
-# Essa é a etapa da *[Data definition Language (DDL)]*.
+# Essa é a etapa da [Data definition Language (DDL)](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/introducao.md#conceitos).
 
-## definições de dados
 
-Antes de criar tabelas é importante definir quais são as características dos dados: *tipo de dados*.
+## SQL
+
+Antes de criar tabelas a partir do projeto lógico é importante definir quais são as características dos dados e conhecer um pouco da `sintaxe` utilizada no `MySql` no `DDL`.
+
+- *tipos de dados*.
 
 |tipo de dado|definição|
 |------------|:---------|
