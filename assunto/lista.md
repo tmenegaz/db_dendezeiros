@@ -54,7 +54,7 @@
 
 * [db_dendezeiros_aula12](https://github.com/tmenegaz/db_dendezeiros/blob/master/avaliacao.md#devolução-das-provas-corrigidas-2)
 
-* [db_dendezeiros_aula12](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/fisico.md#para-criar-um-banco-no-mysql)
+* [db_dendezeiros_aula13](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/fisico.md#para-criar-um-banco-no-mysql)
 
 ---
 
