@@ -78,7 +78,7 @@ Então usando a subtituição temos:
 - **Cada** *Vendedor* **deve ter** *trabalhado* em **uma ou mais** *Praias*.
 - **Em cada** *Praia* **pode ter** *trabalhado* **um ou mais** *Vendedores*.
 
-Você deve ter notado que cada relacionamento contém um **nome**; um **verbo** ou uma **locução verbal** ou um **verbo no particípio passado** que estabelece a relação.Tem também a determinação condicional de obrigatoriedade ou opcionalidade (**deve** ou **pode** respectivamente) e um certo grau de cardinalidade (**uma única** ou **uma ou mais**).
+Você deve ter notado que cada relacionamento contém um **nome**; um **verbo** ou uma **locução verbal** ou um **verbo no particípio passado** que estabelece a relação. Tem também a determinação condicional de obrigatoriedade ou opcionalidade (**deve** ou **pode** respectivamente) e um certo grau de cardinalidade (**uma única** ou **uma ou mais**).
 
 Visto de outro modo o que foi dito acima, tem-se como exemplo:
 

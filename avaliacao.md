@@ -84,27 +84,27 @@ Programada para o dia **10/10/2017** - terça-feira - e terá a *entrega e apres
 
 - **parcial 2**
 
-|data|tempo|
-|:--:|:---:|
-|a combinar|a combinar|
+|data|tempo|horário inicial|
+|:--:|:---:|----|
+|26/09/2017|15min|8h30|
 
 - **parcial 3**
 
-|data|tempo|
-|:--:|:---:|
-|a combinar|a combinar|
+|data|tempo|horário inicial|
+|:--:|:---:|-----|
+|28/09/2017|10min|8h30|
 
 - **parcial 4**
 
-|data|tempo|
-|:--:|:---:|
-|a combinar|a combinar|
+|data|tempo|horário inicial|
+|:--:|:---:|-----|
+|05/10/2017|30min|8h|
 
 - **parcial 5**
 
-|data|tempo|
-|:--:|:---:|
-|10/10/17|4h|
+|data|tempo|horário inicial|
+|:--:|:---:|-----|
+|10/10/17|4h|8h|
 
 ## A *5ª* avaliação
 

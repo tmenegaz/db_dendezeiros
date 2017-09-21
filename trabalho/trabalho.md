@@ -45,7 +45,7 @@ O relatório deve seguir o padrão para cada etapa do ciclo de vida, a saber:
 
 - **Projeto lógico** a partir da **tranformação do modelo conceitual em tabelas SQL** até a **normalização de tabelas**. criar uma apresentação que fundamenta as tabelas obtidas a partir modelo conceitual elaborado com, pelo menos, 3 formas normais.
 
-- **Projeto físico**. criar uma apresentação que fundamenta essa etapa com o objetivo de dar maior precisão a partir da desconstrução/análise crítica do modelo conceitual elaborado prevendo qual o melhor SGBD para tal etapa e porque e seus índices.
+- **Projeto físico**. criar uma apresentação que fundamenta essa etapa com o objetivo de dar maior precisão a partir da desconstrução/análise crítica do modelo conceitual elaborado, prevendo qual o melhor SGBD para tal etapa e porque e, ainda, seus índices.
 
 - **Implementação, monitoração e modificação do banco de dados**. demonstar a funcionalidade do banco de dados elaborado a fim de atender a análise de requisitos elicitada na etapa 1 do ciclo de vida do banco de dados.
 
