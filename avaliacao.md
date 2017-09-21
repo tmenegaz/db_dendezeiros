@@ -69,7 +69,7 @@ Programada para o dia **3/10/2017** - terça-feira - e será uma *avaliação fo
 
 ## A *4ª* avaliação
 
-Programada para o dia **10/10/2017** - terça-feira - e terá a *entrega e apresentação do [trabalho](https://github.com/tmenegaz/db_dendezeiros/blob/master/trabalho.md#trabalho)* com carater de *avaliação somativa*.
+Programada para o dia **10/10/2017** - terça-feira - e terá a *entrega e apresentação do [trabalho](https://github.com/tmenegaz/db_dendezeiros/blob/master/trabalho/trabalho.md#trabalho)* com carater de *avaliação somativa*.
 
 |valor|parciais|total|tempo|
 |:---:|:-------------:|:--:|:---:|
