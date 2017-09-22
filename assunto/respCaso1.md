@@ -64,17 +64,17 @@
 > 
 > ![musica_x_faixa](img/musica_x_faixa.png "musica_x_faixa")
 >
-> - **Cada** *Autor* **deve ter** *composta* **uma única** *música*.
+> - **Cada** *Autor* **deve ter** *composto* **uma ou mais** *músicas*.
 > - **Cada** *música* **pode ser** *composta* por **um ou mais** *Autores*.
 > 
 > ![musica_x_autor](img/musica_x_autor.png "musica_x_autor")
 >
-> - **Cada** *Artista* **deve ter** *cantado* **uma única** *música*.
+> - **Cada** *Artista* **deve ter** *cantado* **uma ou mais** *músicas*.
 > - **Cada** *música* **pode ser** *cantada* por **um ou mais** *Artistas*
 > 
 > ![musica_x_artista](img/musica_x_artista.png "musica_x_artista")
 >
-> - **Cada** *Música* **deve ser** *tocada* por **uma única** *Banda*.
+> - **Cada** *Música* **deve ser** *tocada* por **uma ou mais** *Bandas*.
 > - **Cada** *Banda* **pode ter** *tocado* **uma ou mais** *Música*.
 > 
 > ![musica_x_banda](img/musica_x_banda.png "musica_x_banda")
