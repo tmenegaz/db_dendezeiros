@@ -27,7 +27,7 @@
 
 - [Voltar para o enunciado do relacionamentos do Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#relacionamento)
 
-> - Ops!)
+> ![vendedor_picole](img/venda_picole.png "vendedor_picole")
 >
 
 
