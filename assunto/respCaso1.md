@@ -59,22 +59,22 @@
 >
 > ![cd_x_faixa](img/cd_x_faixa.png "cd_x_faixa")
 >
-> - **Cada** *Faixa* **deve ter** *referenciado* **uma única** *músicas*.
+> - **Cada** *Faixa* **deve ter** *referenciado* **uma única** *música*.
 > - **Cada** *música* **pode estar** *referenciada* em **uma ou mais** *Faixas*.
 > 
 > ![musica_x_faixa](img/musica_x_faixa.png "musica_x_faixa")
 >
-> - **Cada** *Autor* **deve ter** *composta* **uma única** *músicas*.
+> - **Cada** *Autor* **deve ter** *composta* **uma única** *música*.
 > - **Cada** *música* **pode ser** *composta* por **um ou mais** *Autores*.
 > 
 > ![musica_x_autor](img/musica_x_autor.png "musica_x_autor")
 >
-> - **Cada** *Artista* **deve ter** *cantado* **uma única** *músicas*.
+> - **Cada** *Artista* **deve ter** *cantado* **uma única** *música*.
 > - **Cada** *música* **pode ser** *cantada* por **um ou mais** *Artistas*
 > 
 > ![musica_x_artista](img/musica_x_artista.png "musica_x_artista")
 >
-> - **Cada** *Música* **deve ser** *tocada* por **uma única** *Bandas*.
+> - **Cada** *Música* **deve ser** *tocada* por **uma única** *Banda*.
 > - **Cada** *Banda* **pode ter** *tocado* **uma ou mais** *Música*.
 > 
 > ![musica_x_banda](img/musica_x_banda.png "musica_x_banda")

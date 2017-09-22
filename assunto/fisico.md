@@ -202,5 +202,19 @@ CHANGE COLUMN <nome_da_coluna> <novo_nome_da_coluna> <tipo_de_dado_coluna> <colu
 
 Façamos como exercício a transposição dos [casos](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#estudos-de-caso) estudados na etapa de *modelagem conceitual* ou *projeto lógico*.
 
-Obsere os seguintes pontos para realizar a transposição:
+Obsere os seguintes pontos para realizar [a transposição](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/laboratorio.md#laboratório):
 
+- tabela SQL com menos conteúdo da informação da tabela original da qual é derivada.
+    - para entidade com relacionamento *binário* que são *m, n*, *1, m* no lado *um* (pai), ou *1, 1* em qualquer lado.
+    - entidades com relacionamentos recursivos binários que são *m, n* e entidades com relacionamento *ternário* ou de *maior grau* ou uma hierarquia de generalização. 
+- tabela SQL com a inclusão da chave estrangeira da entidade pai.
+    - para entidades com relacionamento *binário* que são *1, m* para a entidade no lado *m* (filha), para relacionamento *1, 1* para uma das entidades.
+    - para cada entidade com relacionamento *recursivo* *binário* que seja *1, 1* ou *1, m*.
+    - tratamento muito comum entre os relacionamento por meio da definição de uma chave estrangeira, da tabela-pai, na tabela-filha.   
+- tabela SQL derivada de um relacionamento contendo as chaves estrangeiras de todas as entidades no relacionamento.
+    - para relacionamentos *binários* *m, n*.
+    - para relacionamentos *binários* *recursivos* *m, n*.
+    - para todos os relacionamentos que são *ternário* ou de grau maior.
+    - um relacionamento *m, n* só podem ser definidos em termos de uma tabela que contém chave estrangeira correspondente às chaves primárias das duas entidadesassociadas.
+
+Consulte a [lista de transposições]() para casos comuns entre relacionamentos de entidades, em diferentes graus.
