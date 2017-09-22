@@ -80,7 +80,7 @@
 > ![musica_x_banda](img/musica_x_banda.png "musica_x_banda")
 >
 > - **Cada** *Banda* **deve ter** *elencado* **um ou mais** *Artistas*.
-> - **Cada** *Artista* **pode ser** *elencado* por **uma única** *Bandas*.
+> - **Cada** *Artista* **pode ser** *elencado* por **uma ou mais** *Bandas*.
 > 
 > ![artista_x_banda](img/artista_x_banda.png "artista_x_banda")
 >
