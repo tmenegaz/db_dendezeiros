@@ -217,4 +217,4 @@ Obsere os seguintes pontos para realizar [a transposição](https://github.com/t
     - para todos os relacionamentos que são *ternário* ou de grau maior.
     - um relacionamento *m, n* só podem ser definidos em termos de uma tabela que contém chave estrangeira correspondente às chaves primárias das duas entidadesassociadas.
 
-Consulte a [lista de transposições]() para casos comuns entre relacionamentos de entidades, em diferentes graus.
+Consulte a [lista de transposições](https://github.com/tmenegaz/db_dendezeiros/blob/64d9bcddf6d8707452582f7a900b4a47c1c3a09e/assunto/transposicao.md#lista-de-transposição) para casos comuns entre relacionamentos de entidades, em diferentes graus.
