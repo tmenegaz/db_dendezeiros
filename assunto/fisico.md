@@ -70,14 +70,14 @@ onde:
 
 Os *contraint* mais comuns são:
 
-- [chave primária](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/exercicios1.md) - ver item 13 dalista de exercícios.
+- [chave primária](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/exercicios1.md) - ver item 13 da lista de exercícios.
 
 ```mysql
 PRIMARY KEY(<coluna>)
 ```
 
 
-- [chave estrangeira](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/exercicios1.md) - ver item 13 dalista de exercícios.
+- [chave estrangeira](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/exercicios1.md) - ver item 13 da lista de exercícios.
  
 ```mysql
 FOREIGN KEY nome_da_coluna (<lista_de_colunas>)
