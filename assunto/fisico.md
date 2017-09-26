@@ -219,4 +219,11 @@ Obsere os seguintes pontos para realizar [a atividade de transposição](https:/
     - para todos os relacionamentos que são *ternário* ou de grau maior.
     - um relacionamento *m:n* só podem ser definidos em termos de uma tabela que contém chave estrangeira correspondente às chaves primárias das duas entidades associadas.
 
-Consulte a [lista de transposições](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/transposicao.md#lista-de-transposição) para casos comuns entre relacionamentos de entidades, em diferentes graus.
+Para além das três regras de tabelas desejadas é iportante observar as regras aplicadas as *constraints* afim de se obter uma boa estratégia de desnormalização.  
+Os valores *nulos* da`SQL` nessa transposição podem ser utilizados da seguinte maneira:
+
+-  `null` é permitido em uma tabelas `SQL` para `FK` de entidades **opcionais** associadas.
+- `null` não é permitido em uma tabelas `SQL` para `FK` de entidades **obrigatória** associadas.
+- `null` não é permitido para qualquer `chave` em uma tabelas `SQL` derivada de um relacionamento `m:n`, pois somente entradas de linhas completas fazem sentido na tabela.
+
+Consulte a [lista de transposições](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/transposicao.md#lista-de-transposição) para casos comuns entre relacionamentos de entidades, em diferentes graus de relacionamento.
