@@ -30,8 +30,8 @@ da.
 
 ### quando cada relacionamento tem cardinalidade `1` a tabela **resultante** tem:
 
-- `3` `pk’s` distintas possíveis; - são `3` as dependências funcionais
-- `Df’s`; - não existe restrição de **opcionalidade**
+- `3` `pk’s` distintas possíveis; - são `3` as dependências funcionais - `Df’s`;
+- não existe restrição de **opcionalidade**
 - o `n.º` relacionamentos define o limite inferior sobre o `n.º` de `DF’s`;
 - define-se `unique` com o grau `1` para cada par de a entidades na definição da `pk` da entidade resultante;
     
