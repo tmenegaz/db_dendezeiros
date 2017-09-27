@@ -1,6 +1,6 @@
 # Exercícios
 
-1. Pesquise a fim de conhecer e determinar o que é banco de dados *hierárquico*, *rede*, *relacional*, *objeto-relacional* e *objeto*.
+## 1. Pesquise a fim de conhecer e determinar o que é banco de dados *hierárquico*, *rede*, *relacional*, *objeto-relacional* e *objeto*.
 
 - *Hierárquico*: um gerenciador desse tipo representa dados como uma estrutura em árvore, composto de hierarquia e registros
     - exemplo:

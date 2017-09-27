@@ -6,7 +6,7 @@ Existem `5` regras que se aplicam a *Banco de dados*, são as *formas normais* -
 
 Para ilustrar a utilização das *FNs* vemos estudar esse esse pequeno caso.
 
-Para um caso que funcionários trabalham em departamentos e um destes funcionário pode ser gerente dos demais, a OSBA cosuma ter o histórico de seu funcionários. Cada funcionárioo trabalha em projeto por vez.
+Para um caso que músicos especialistas tocam em um dos naipes, apenas. Sendo estes madeira, corda, metal e percurssão e um destes músicos epecialista pode ser o chefe de um naipe. A OSBA costuma ter o histórico de seu músicos para cada concerto realizado. Os concertos são elaborados a partir da definição e arranjo dos naipes necessários para a execução de cada obra composta.
 
 ## Primeira forma normal
 
