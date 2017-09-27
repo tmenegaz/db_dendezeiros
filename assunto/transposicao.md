@@ -27,25 +27,30 @@ da.
 - existem `4` variações possíveis em um relacionamento **ternário**;
 - todas as variações são transpostas para uma tabela `SQL` que deve conter as `pk’s` de todas as entidades;
 - as regras de restrição para a `fk` sobre `update` e `delete` para relacionamento ternários transformados em tabelas `SQL` sempre precisam ser propagadas, pois cada valor da tabela depende da existência  da `pk` referenciada;
+
 ### quando cada relacionamento tem cardinalidade `1` a tabela **resultante** tem:
-    - `3` `pk’s` distintas possíveis; - são `3` as dependências funcionais
-    - `Df’s`; - não existe restrição de **opcionalidade**
-    - o `n.º` relacionamentos define o limite inferior sobre o `n.º` de `DF’s`;
-    - define-se `unique` com o grau `1` para cada par de a entidades na definição da `pk` da entidade resultante;
+
+- `3` `pk’s` distintas possíveis; - são `3` as dependências funcionais
+- `Df’s`; - não existe restrição de **opcionalidade**
+- o `n.º` relacionamentos define o limite inferior sobre o `n.º` de `DF’s`;
+- define-se `unique` com o grau `1` para cada par de a entidades na definição da `pk` da entidade resultante;
     
 ### quando cada relacionamento tem cardinalidade `1:1:m` a tabela **resultante** tem:
-    - `2` `pk’s` distintas possíveis entre `1` e `n`;
-    - são `2` as dependências funcionais - `Df’s`;
-    - define-se `unique` com o grau `n` e o grau `1` com a entidade que não teve a `pk` utilizada na definição da `pk` da entidade resultante;
+
+- `2` `pk’s` distintas possíveis entre `1` e `n`;
+- são `2` as dependências funcionais - `Df’s`;
+- define-se `unique` com o grau `n` e o grau `1` com a entidade que não teve a `pk` utilizada na definição da `pk` da entidade resultante;
     
 ### quando cada relacionamento tem cardinalidade `1:m:n` a tabela **resultante** tem:
-    - `2` `pk’s` distintas possíveis entre `m` e `n`;
-    - é `1` a dependência funcional - `Df`;
+
+- `2` `pk’s` distintas possíveis entre `m` e `n`;
+- é `1` a dependência funcional - `Df`;
     
 ### quando cada relacionamento tem cardinalidade `m:m:n` a tabela **resultante** tem: 
-    -`uma` única `pk` composta, sem considerar os atributos próprios do relacionamento;
-    - é `0` a dependência funcional - `Df`;
+
+-`uma` única `pk` composta, sem considerar os atributos próprios do relacionamento;
+- é `0` a dependência funcional - `Df`;
  
- ---
+---
 
 ![tranposicao](img/logico2fisico_binario.png "Lista de transposição")
