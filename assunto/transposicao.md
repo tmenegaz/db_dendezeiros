@@ -9,15 +9,15 @@ da.
  
 ## Em relacionamento binário `1:m`
 
-- esse tipo de relacionamento poderá ser opcional ou obrigatório no lado `m`, sem afetar a tranformação.
-- no lado um ele pode ser obrigatório ou opcional.
+- esse tipo de relacionamento poderá ser **opcional** ou **obrigatório** no lado `m`, sem afetar a tranformação.
+- no lado um ele pode ser **obrigatório** ou **opcional**.
 - em todos os casos a `fk` deverá ficar no lado `m`, que representa a entidade filha
 - com `null` permitido para, `fk` nos casos em que, no lado `1` for opcional.
 
 ## Em relacionamentos binário `m:n`
 
-- em sendo opcional para as duas entidades uma nova tabela será criada com a `pk` de cada entidade;
-- a mesma regra para os casos onde o condição for obrigatório;
+- em sendo **opcional** para as duas entidades uma nova tabela será criada com a `pk` de cada entidade;
+- a mesma regra para os casos onde o condição for **obrigatório**;
 - a cláusula `not null` deverá aparecer para as `fk's` nos dois casos, a cima;
 - sem afetar as definições de `null` ou `not null`, a tebela `SQL` derivada de uma entidade opcional pode ter `0` linhas.
 
