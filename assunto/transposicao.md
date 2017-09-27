@@ -48,7 +48,7 @@ da.
     
 ### quando cada relacionamento tem cardinalidade `m:m:n` a tabela **resultante** tem: 
 
--`uma` única `pk` composta, sem considerar os atributos próprios do relacionamento;
+- `uma` única `pk` composta, sem considerar os atributos próprios do relacionamento;
 - é `0` a dependência funcional - `Df`;
  
 ---
