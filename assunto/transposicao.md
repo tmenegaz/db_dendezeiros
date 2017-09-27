@@ -25,13 +25,13 @@ da.
 
 - n-ários possuem `n + 1` variações possíveis de conectividade;
 - existem `4` variações possíveis em um relacionamento **ternário**;
-- todas as variações são transpostas para uma tabela `SQL` que deve conter as `pk’s` de todas as entidades;
+- todas as variações são transpostas para uma tabela `SQL` que deve conter as `pk’s` de todas as entidades: declaração das `fk's`;
 - as regras de restrição para a `fk` sobre `update` e `delete` para relacionamento ternários transformados em tabelas `SQL` sempre precisam ser propagadas, pois cada valor da tabela depende da existência  da `pk` referenciada;
 
 ### quando cada relacionamento tem cardinalidade `1` a tabela **resultante** tem:
 
 - `3` `pk’s` distintas possíveis; - são `3` as dependências funcionais - `Df’s`;
-- não existe restrição de **opcionalidade**
+- não existe restrição de **opcionalidade**;
 - o `n.º` relacionamentos define o limite inferior sobre o `n.º` de `DF’s`;
 - define-se `unique` com o grau `1` para cada par de a entidades na definição da `pk` da entidade resultante;
     
