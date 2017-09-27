@@ -21,4 +21,6 @@ da.
 - a cláusula `not null` deverá aparecer para as `fk's` nos dois casos, a cima;
 - sem afetar as definições de `null` ou `not null`, a tebela `SQL` derivada de uma entidade **opcional** pode ter `0` linhas.
 
+---
+
 ![tranposicao](img/logico2fisico_binario.png "Lista de transposição")
