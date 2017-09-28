@@ -29,7 +29,7 @@ Aplicando a `2FN` tem-se:
 
 ## Terceira forma normal
 
-Dizemos que uma tabela está na terceira forma normal `3FN` *se*, *e somente se* ela estiver na `2FN` e, ainda, para cada `DF` não trivial `X -> A`, onde `X` e `A` são *atributos* simples ou compostos, uma das duas condições precisar ser mantida: ou o *atributo* `X` é uma `super chave` ou o *atributo* `A` é membrode uma chave candidata. Então, sendo o *atributo* `A` membro de uma chave candidata `A` será chamado de **atributo primo**.
+Dizemos que uma tabela está na terceira forma normal `3FN` *se*, *e somente se* ela estiver na `2FN` e, ainda, para cada `DF` não trivial `X -> A`, onde `X` e `A` são *atributos* simples ou compostos, uma das duas condições precisar ser mantida: ou o *atributo* `X` é uma `super chave` ou o *atributo* `A` é membro de uma chave candidata. Então, sendo o *atributo* `A` membro de uma chave candidata `A` será chamado de **atributo primo**.
 
 ## Quarta forma normal
 
