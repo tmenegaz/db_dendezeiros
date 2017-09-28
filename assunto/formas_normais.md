@@ -21,7 +21,11 @@ Aplicando a `1FN` no relatório com dados brutos tem-se:
 Dizemos que uma tabela está na segunda forma normal `2FN` *se*, *e somente se* ela estiver na `1FN` e os *atributos* **não** `chave` forem *totalmente dependentes* da `fk`. Um *atributo* será totalmente dependente da `fk` se estiver do lado direito de uma **dependência fumcional** - `DF` que tem no lado esquerdo a própria `fk` ou algo que possa ser derivado da `fk` usando a **transitividade** das `DF`. A *transitividade* das `DF` é a *derivação* da `DF` em outras tabelas. 
 
 É denominada de **dependência funcional** - `DF` a *propriedade de um ou mais atributos* **determinarem** **unicamente** o **valor** de *um ou mais outros atributos*. Então imaginemos uma tabela `R` com um conjunto de de atributos `B` e um conjundo de atributos `A`.  
-O conjunto de atributos `B` é *dependente funcionalmente* do outro conjunto de atributos `A` se, em qualquer momento do tempo, cada valor `A` estiver **associado** a **apenas um valor** `B`. Essa `DF` é indicada por `A -> B`.
+O conjunto de atributos `B` é *dependente funcionalmente* do outro conjunto de atributos `A` se, em qualquer momento do tempo, cada valor `A` estiver **associado** a **apenas um valor** `B`. Essa `DF` é indicada por `A -> B`.  
+Aplicando a `2FN` tem-se:
+
+![Relatório_2FN](img/tabela_2FN.png "Relatório após aplicação da 2FN")
+
 
 ## Terceira forma normal
 
