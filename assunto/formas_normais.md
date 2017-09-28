@@ -29,13 +29,15 @@ Aplicando a `2FN` tem-se:
 
 ## Terceira forma normal
 
-Dizemos que uma tabela está na terceira forma normal `3FN` *se*, *e somente se* ela estiver na `2FN` e, ainda, para cada `DF` não trivial `X -> A`, onde `X` e `A` são *atributos* simples ou compostos, uma das duas condições precisar ser mantida: ou o *atributo* `X` é uma `super chave` ou o *atributo* `A` é membro de uma chave candidata. Então, sendo o *atributo* `A` membro de uma chave candidata `A` será chamado de **atributo primo**.
+Dizemos que uma tabela está na terceira forma normal `3FN` *se*, *e somente se* ela estiver na `2FN` e, ainda, para cada `DF` não trivial `X -> A`, onde `X` e `A` são *atributos* simples ou compostos, uma das duas condições precisar ser mantida: ou o *atributo* `X` é uma `super chave` ou o *atributo* `A` é membro de uma chave candidata. Então, sendo o *atributo* `A` membro de uma chave candidata `A` será chamado de **atributo primo**.  
 
-## Quarta forma normal
+Para saber mais acesse um link externo:
+- [USP - introdução ao banco de dados](https://www.ime.usp.br/~jef/apostila.pdf)
+- [Modelagem de dados](http://unilivros.com.br/pdf/dbmod.pdf)
 
-## Quinta forma normal
+---
 
-Para ilustrar a utilização das *FNs* vemos estudar esse pequeno caso e normalizar até onde for possível.
+Para ilustrar a utilização das *FNs* vamos estudar esse pequeno caso e normalizar até onde for possível.
 
 Para um caso que músicos especialistas tocam em um dos naipes, apenas. Sendo estes madeira, corda, metal e percurssão e um destes músicos epecialista pode ser o chefe de um naipe. A orquestra costuma ter o histórico de seu músicos para cada concerto realizado. Os concertos são elaborados a partir da definição e arranjo dos naipes necessários para a execução de cada obra composta.
 
