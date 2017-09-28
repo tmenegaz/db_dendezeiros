@@ -11,7 +11,9 @@ Tomemos essa tabela como exemplo:
 
 ## Primeira forma normal
 
-Dizemos que uma tabela está na primeira forma normal `1FN` *se*, *e somente se* todas as colunas tiverem apenas [valores atômicos](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/exercicios1.md#8-qual-a-diferenção-entre-dado-e-informação), ou seja, sa cada coluna tiver apenas um valor para cada linha da tabela.
+Dizemos que uma tabela está na primeira forma normal `1FN` *se*, *e somente se* todas as colunas tiverem apenas [valores atômicos](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/exercicios1.md#8-qual-a-diferenção-entre-dado-e-informação), ou seja, sa cada coluna tiver apenas um valor para cada linha da tabela.  
+Aplicando a `1FN` no relatório com dados brutos tem-se:
+![Relatório_1FN]()(img/tabela_1FN.png "Relatório após aplicação da `1FN`)
 
 ## Segunda forma normal
 
