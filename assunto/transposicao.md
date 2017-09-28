@@ -26,7 +26,7 @@ da.
 - n-ários possuem `n + 1` variações possíveis de conectividade;
 - existem `4` variações possíveis em um relacionamento **ternário**;
 - todas as variações são transpostas para uma tabela `SQL` que deve conter as `pk’s` de todas as entidades: declaração das `fk's`;
-- as regras de restrição para a `fk` sobre `update` e `delete` para relacionamento ternários transformados em tabelas `SQL` sempre precisam ser propagadas, pois cada valor da tabela depende da existência  da `pk` referenciada;
+- as regras de restrição para a `fk` sobre `update` e `delete` para relacionamento ternários transformados em tabelas `SQL` sempre precisam ser propagadas, pois cada valor da tabela depende da existência  da `pk` referenciada.
 
 ### quando cada relacionamento tem cardinalidade `1` a tabela **resultante** tem:
 
