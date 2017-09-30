@@ -227,3 +227,5 @@ Os valores *nulos* da`SQL` nessa transposição podem ser utilizados da seguinte
 - `null` não é permitido para qualquer `chave` em uma tabelas `SQL` derivada de um relacionamento `m:n`, pois somente entradas de linhas completas fazem sentido na tabela.
 
 Consulte a [lista de transposições](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/transposicao.md#lista-de-transposição) para casos comuns entre relacionamentos de entidades, em diferentes graus de relacionamento.
+
+[Localize-se: lista das aulas](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas)

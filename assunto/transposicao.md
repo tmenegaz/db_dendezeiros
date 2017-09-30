@@ -55,3 +55,5 @@ da.
 ---
 
 ![tranposicao](img/logico2fisico_binario.png "Lista de transposição")
+
+[Localize-se: lista das aulas](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas)
