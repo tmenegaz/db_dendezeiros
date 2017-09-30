@@ -58,7 +58,7 @@ CADA *país* (filho) PODE TER *vinculado* UM ÚNICO *uf* (pai)
 
 ## Transposição para o modelo físico
 
-É importamte que o código `SQL` respeite a estrutura de sequência para a criação do `script`. Essa estrutura dever ser de cima para baixo começando pelas tabelas `pais` e, de pois as tabelas `filhas`. Isso evita erros de interpretação.
+É importamte que o código escrito em `SQL` respeite a estrutura de sequência para a criação do `script`. Essa estrutura dever ser de cima para baixo começando pelas tabelas `pais` e, de pois as tabelas `filhas`. Isso evita erros de interpretação.
 
 ![script orquestra.sql](src/orquestra.sql "script orquestra.sql")
 
