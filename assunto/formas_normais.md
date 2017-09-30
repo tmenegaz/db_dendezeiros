@@ -41,7 +41,7 @@ Para ilustrar a utilização das *FNs* vamos estudar esse pequeno caso e normali
 
 Para um caso em que músicos especialistas de uma orquestra tocam em um dos naipes, apenas. Sendo estes naipes madeira, corda, metal e percurssão e um destes músicos epecialista pode ser o chefe de um naipe. A orquestra costuma ter o histórico de seu músicos para cada concerto realizado disponibilizando fotos e vídeos das apresentações ou ensaios. Os concertos são elaborados a partir da definição e arranjo dos naipes necessários para a execução de cada obra composta. É elborado um release de cada músico, nipe, inistrumento e concerto executado pela orquestra para alimentar o hitórico, o currículo dos músico e pesquisas em geral sobre a música.
 
-> [Análise desenvolvida para o caso Orquestra](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso6.md#caso-orquestra)
+> [Análise desenvolvida para o caso orquestra](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso6.md#caso-orquestra)
 
 Analise os requisitos e faça a normalização dos [casos](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#estudos-de-caso)
 
