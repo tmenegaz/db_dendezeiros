@@ -13,7 +13,7 @@
 
 CADA *músico* (pai) DEVE ESTAR *ligado* (filho) A UM ÚNICO *naipe* (pai) COM A UMA OU MAIS *especialidades* (pai)
 CADA *naipe* (pai) DEVE TER *integrado* (filho) UM OU MAIS *músicos* (pai) COM UMA OU MAIS *especialidades* (pai)
-CADA *especialidades* (pai) DEVE TER *epecialistas* (filho) DE UM ÚNICO *naipe* (pai) COM UM OU MAIS *músicos* (pai) 
+CADA *especialidades* (pai) DEVE TER *epecialistas* (filho) DE UM ÚNICO *naipe* (pai) COM UM OU MAIS *músicos* (pai)  
 
 CADA *músico* (filho) PODE SER *chefiado* POR UM ÚNICO *chefe* (pai)
 CADA *chefe* (pai) DEVE TER *chefido* UM OU MAIS *músicos* (filho)
