@@ -60,7 +60,7 @@ CADA *país* (filho) PODE TER *vinculado* UM ÚNICO *uf* (pai)
 
 É importamte que o código escrito em `SQL` respeite a estrutura de sequência para a criação do `script`. Essa estrutura dever ser de cima para baixo começando pelas tabelas `pais` e de pois as tabelas `filhas`. Isso evita erros de interpretação.
 
-![script orquestra.sql](src/orquestra.sql "script orquestra.sql")
+Veja o script [Data definition Language (DDL)](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/introducao.md#conceitos) resultante da transposição do `modelo lógico`: [script orquestra.sql](src/orquestra.sql "script orquestra.sql")
 
 [Localize-se: lista das aulas](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas)
 
