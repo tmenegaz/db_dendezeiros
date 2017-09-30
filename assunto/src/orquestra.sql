@@ -6,13 +6,13 @@ CREATE TABLE preco_pauta (
     id_preco INT(11) NOT NULL AUTO_INCREMENT,
     preco_custo VARCHAR(50) NOT NULL,
     PRIMARY KEY (id_preco)
-)  ENGINE=INNODB;
+)  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
 CREATE TABLE _release (
     id_release INT(11) NOT NULL AUTO_INCREMENT,
     texto TEXT NULL,
     PRIMARY KEY (id_release)
-)  ENGINE=INNODB;
+)  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
 CREATE TABLE musico_chefe (
     id_musico INT(11) NOT NULL AUTO_INCREMENT,
@@ -22,25 +22,25 @@ CREATE TABLE musico_chefe (
     FOREIGN KEY (chefe_de_naipe)
         REFERENCES musico_chefe (id_musico)
         ON DELETE CASCADE ON UPDATE NO ACTION
-)  ENGINE=INNODB;
+)  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
 CREATE TABLE naipe (
     id_naipe INT(11) NOT NULL AUTO_INCREMENT,
     nome_naipe VARCHAR(50) NOT NULL,
     PRIMARY KEY (id_naipe)
-)  ENGINE=INNODB;
+)  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
 CREATE TABLE especialidade (
     id_especialidade INT(11) NOT NULL AUTO_INCREMENT,
     nome_instrumento VARCHAR(50) NOT NULL,
     PRIMARY KEY (id_especialidade)
-);
+)ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
 CREATE TABLE musico_naipe_especialidade (
     id_musico INT(11) NOT NULL AUTO_INCREMENT,
     id_naipe INT(11) NOT NULL,
     id_especialidade INT(11) NOT NULL,
-    PRIMARY KEY (id_musico, id_especialidade), /* pode haver repetição no conteúdo das colunas relacionadas  */
+    PRIMARY KEY (id_musico, id_especialidade),
     FOREIGN KEY (id_musico)
         REFERENCES musico_chefe (id_musico)
         ON DELETE CASCADE ON UPDATE CASCADE,
@@ -49,16 +49,14 @@ CREATE TABLE musico_naipe_especialidade (
         ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY (id_naipe)
         REFERENCES naipe (id_naipe)
-        ON DELETE CASCADE ON UPDATE CASCADE,
-    UNIQUE(id_musico, id_naipe), /* não pode haver repetição no conteúdo das colunas relacionadas  */
-    UNIQUE(id_naipe, id_especialidade) /* não pode haver repetição no conteúdo das colunas relacionadas  */
-)  ENGINE=INNODB;
+        ON DELETE CASCADE ON UPDATE CASCADE
+)  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
 CREATE TABLE pais (
     id_pais INT(11) NOT NULL AUTO_INCREMENT,
     nome VARCHAR(50) NOT NULL,
     PRIMARY KEY (id_pais)
-)  ENGINE=INNODB;
+)  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
 CREATE TABLE uf (
     id_uf INT(11) NOT NULL AUTO_INCREMENT,
@@ -68,7 +66,7 @@ CREATE TABLE uf (
     FOREIGN KEY (id_pais)
         REFERENCES pais (id_pais)
         ON DELETE NO ACTION ON UPDATE CASCADE
-)  ENGINE=INNODB;
+)  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
 CREATE TABLE cidade (
     id_cidade INT(11) NOT NULL AUTO_INCREMENT,
@@ -78,7 +76,7 @@ CREATE TABLE cidade (
     FOREIGN KEY (id_uf)
         REFERENCES uf (id_uf)
         ON DELETE NO ACTION ON UPDATE CASCADE
-)  ENGINE=INNODB;
+)  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
 CREATE TABLE bairro (
     id_bairro INT(11) NOT NULL AUTO_INCREMENT,
@@ -88,7 +86,7 @@ CREATE TABLE bairro (
     FOREIGN KEY (id_cidade)
         REFERENCES cidade (id_cidade)
         ON DELETE NO ACTION ON UPDATE CASCADE
-)  ENGINE=INNODB;
+)  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
 CREATE TABLE rua (
     id_rua INT(11) NOT NULL AUTO_INCREMENT,
@@ -98,7 +96,7 @@ CREATE TABLE rua (
     FOREIGN KEY (id_bairro)
         REFERENCES bairro (id_bairro)
         ON DELETE NO ACTION ON UPDATE CASCADE
-)  ENGINE=INNODB;
+)  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
 CREATE TABLE pauta (
     id_pauta INT(11) NOT NULL AUTO_INCREMENT,
@@ -112,7 +110,7 @@ CREATE TABLE pauta (
     FOREIGN KEY (id_preco)
         REFERENCES preco_pauta (id_preco)
         ON DELETE CASCADE ON UPDATE CASCADE
-)  ENGINE=INNODB;
+)  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
 CREATE TABLE historico (
     id_historico INT(11) NOT NULL AUTO_INCREMENT,
@@ -127,7 +125,7 @@ CREATE TABLE historico (
     FOREIGN KEY (id_musico)
         REFERENCES musico_chefe (id_musico)
         ON DELETE CASCADE ON UPDATE CASCADE
-)  ENGINE=INNODB;
+)  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
 CREATE TABLE concerto (
     id_concerto INT(11) NOT NULL AUTO_INCREMENT,
@@ -143,4 +141,4 @@ CREATE TABLE concerto (
     FOREIGN KEY (id_historico)
         REFERENCES historico (id_historico)
         ON DELETE CASCADE ON UPDATE CASCADE
-)  ENGINE=INNODB;
+)  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
