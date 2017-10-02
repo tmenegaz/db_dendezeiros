@@ -14,16 +14,6 @@ CREATE TABLE _release (
     PRIMARY KEY (id_release)
 )  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
-CREATE TABLE musico_chefe (
-    id_musico INT(11) NOT NULL AUTO_INCREMENT,
-    nome VARCHAR(50) NULL,
-    chefe_de_naipe INT(11) NOT NULL,
-    PRIMARY KEY (id_musico , chefe_de_naipe),
-    FOREIGN KEY (chefe_de_naipe)
-        REFERENCES musico_chefe (id_musico)
-        ON DELETE CASCADE ON UPDATE NO ACTION
-)  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
-
 CREATE TABLE naipe (
     id_naipe INT(11) NOT NULL AUTO_INCREMENT,
     nome_naipe VARCHAR(50) NOT NULL,
@@ -35,6 +25,17 @@ CREATE TABLE especialidade (
     nome_instrumento VARCHAR(50) NOT NULL,
     PRIMARY KEY (id_especialidade)
 )ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
+
+CREATE TABLE musico_chefe (
+    id_musico INT(11) NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(50) NULL,
+    chefe_de_naipe INT(11) NOT NULL,
+    PRIMARY KEY (id_musico),
+    FOREIGN KEY (chefe_de_naipe)
+        REFERENCES musico_chefe (id_musico)
+        ON DELETE NO ACTION ON UPDATE CASCADE
+)  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN COMMENT='Os músicos são dividodos em naipes e
+cada naipe possui um líder: chefe_de_naipe';
 
 CREATE TABLE musico_naipe_especialidade (
     id_musico INT(11) NOT NULL AUTO_INCREMENT,
@@ -50,7 +51,7 @@ CREATE TABLE musico_naipe_especialidade (
     FOREIGN KEY (id_naipe)
         REFERENCES naipe (id_naipe)
         ON DELETE CASCADE ON UPDATE CASCADE
-)  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
+)  	ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
 CREATE TABLE pais (
     id_pais INT(11) NOT NULL AUTO_INCREMENT,
