@@ -15,9 +15,8 @@ CREATE TABLE _release (
 )  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
 CREATE TABLE naipe (
-    id_naipe INT(11) NOT NULL AUTO_INCREMENT,
-    nome_naipe VARCHAR(50) NOT NULL,
-    PRIMARY KEY (id_naipe)
+    nome_naipe VARCHAR(12) NOT NULL,
+    PRIMARY KEY (nome_naipe)
 )  ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
 CREATE TABLE especialidade (
@@ -39,18 +38,20 @@ cada naipe possui um líder: chefe_de_naipe';
 
 CREATE TABLE musico_naipe_especialidade (
     id_musico INT(11) NOT NULL AUTO_INCREMENT,
-    id_naipe INT(11) NOT NULL,
+    nome_naipe VARCHAR(12) NOT NULL,
     id_especialidade INT(11) NOT NULL,
-    PRIMARY KEY (id_musico, id_especialidade),
+    PRIMARY KEY (id_especialidade, nome_naipe),
     FOREIGN KEY (id_musico)
         REFERENCES musico_chefe (id_musico)
         ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY (id_especialidade)
         REFERENCES especialidade (id_especialidade)
         ON DELETE CASCADE ON UPDATE CASCADE,
-    FOREIGN KEY (id_naipe)
-        REFERENCES naipe (id_naipe)
-        ON DELETE CASCADE ON UPDATE CASCADE
+    FOREIGN KEY (nome_naipe)
+        REFERENCES naipe (nome_naipe)
+        ON DELETE CASCADE ON UPDATE CASCADE,
+        UNIQUE(id_musico, id_especialidade),
+        UNIQUE(nome_naipe, id_especialidade)
 )  	ENGINE=INNODB DEFAULT CHARACTER SET=UTF8 COLLATE = UTF8_BIN;
 
 CREATE TABLE pais (
@@ -117,11 +118,11 @@ CREATE TABLE historico (
     id_historico INT(11) NOT NULL AUTO_INCREMENT,
     regitro_foto VARCHAR(250) NULL,
     registro_video VARCHAR(250) NULL,
-    id_naipe INT(11) NOT NULL,
+    nome_naipe VARCHAR(12) NOT NULL,
     id_musico INT(11) NOT NULL,
     PRIMARY KEY (id_historico),
-    FOREIGN KEY (id_naipe)
-        REFERENCES naipe (id_naipe)
+    FOREIGN KEY (nome_naipe)
+        REFERENCES naipe (nome_naipe)
         ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY (id_musico)
         REFERENCES musico_chefe (id_musico)
