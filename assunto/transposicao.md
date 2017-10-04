@@ -34,7 +34,7 @@ Nesse tipo de relacionamento não é permitida a `opcionalidade` e a restrição
 - existem `4` variações possíveis em um relacionamento **ternário**;
 - todas as variações são transpostas para uma tabela `SQL` que deve conter as `pk’s` de todas as entidades: declaração das `fk's`.
 
-### quando cada relacionamento tem cardinalidade `1` a tabela **resultante** tem:
+### quando cada relacionamento tem cardinalidade `1:1:1` a tabela **resultante** tem:
 
 - todas os atributos `pk's` das entidades `pais` são declarados como `chave candidata` na entidade resultante `filha`;
 - têm-se `3` `pk’s` distintas possíveis;
