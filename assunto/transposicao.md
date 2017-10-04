@@ -38,7 +38,7 @@ Nesse tipo de relacionamento não é permitida a `opcionalidade` e a restrição
 
 - todas os atributos `pk's` das entidades `pais` são declarados como `chave candidata` na entidade resultante `filha`;
 - têm-se `3` `pk’s` distintas possíveis;
-- `2` `chaves candidatas`: `pk's` das tabelas `pais`, são declaradas com `pk` da tabela `filha`;
+- `2` `chaves candidatas`: `pk's` das tabelas `pais`, são declaradas como `pk` da tabela `filha`;
 - cada `uma` das entidades declaradas como `pk` fará par com a `chave candidata` que não foi declarada como `pk`, por meio de `2` regras `unique`: uma `unique` para cada;
 - são `3` as dependências funcionais - `Df’s`;
 - não existe **opcionalidade**. pois todas as `n` entidades precisam de cada instância do relacionamento;
@@ -48,7 +48,7 @@ Nesse tipo de relacionamento não é permitida a `opcionalidade` e a restrição
 
 - todas os atributos `pk's` das entidades `pais` são declarados como `chave candidata` na entidade resultante `filha`;
 - têm-se `2` `pk’s` distintas possíveis;
-- `2` `chaves candidatas`: `pk's` das tabelas `pais`, são declaradas com `pk` da tabela `filha`: uma com grau de cardinalidade `1` e a outra com grau de cardinalidade `m`;
+- `2` `chaves candidatas`: `pk's` das tabelas `pais`, são declaradas como `pk` da tabela `filha`: uma com grau de cardinalidade `1` e a outra com grau de cardinalidade `m`;
 - a entidades declaradas como `pk` que tem grau cardinalidade `m` fará par com a `chave candidata` que não foi declarada como `pk`, por meio de `1` regras `unique`;
 - `2` `pk’s` distintas possíveis entre `1` e `n`;
 - são `2` as dependências funcionais - `Df’s`;
@@ -57,7 +57,7 @@ Nesse tipo de relacionamento não é permitida a `opcionalidade` e a restrição
 
 todas os atributos `pk's` das entidades `pais` são declarados como `chave candidata` na entidade resultante `filha`;
 - têm-se `2` `pk’s` distintas possíveis;
-- `2` `chaves candidatas`: `pk's` das tabelas `pais`, são declaradas com `pk` da tabela `filha`: as `2` `chaves candidatas` com grau de cardinalidade `m`;
+- `2` `chaves candidatas`: `pk's` das tabelas `pais`, são declaradas como `pk` da tabela `filha`: as `2` `chaves candidatas` com grau de cardinalidade `m`;
 - `2` `pk’s` distintas possíveis entre `m` e `n`;
 - é `1` a dependência funcional - `Df`.
     
@@ -65,7 +65,7 @@ todas os atributos `pk's` das entidades `pais` são declarados como `chave candi
 
 todas os atributos `pk's` das entidades `pais` são declarados como `chave candidata` na entidade resultante `filha`;
 - têm-se `1` `pk` possíveis;
-- `3` `chaves candidatas`: `pk's` das tabelas `pais`, são declaradas com `pk` da tabela `filha`;
+- `3` `chaves candidatas`: `pk's` das tabelas `pais`, são declaradas como `pk` da tabela `filha`;
 - `uma` única `pk` composta, sem considerar os atributos próprios do relacionamento;
 - é `0` a dependência funcional - `Df`.
 
