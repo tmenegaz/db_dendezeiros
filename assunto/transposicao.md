@@ -19,11 +19,14 @@
 - em sendo **opcional** para as duas entidades uma nova tabela será criada com a `pk` de cada entidade;
 - a mesma regra para os casos onde o condição for **obrigatório**;
 - a cláusula `not null` deverá aparecer para as `fk's` nos dois casos, a cima;
-- sem afetar as definições de `null` ou `not null`, a tebela `SQL` derivada de uma entidade **opcional** pode ter `0` linhas.
+- sem afetar as definições de `null` ou `not null`, a tebela `SQL` derivada de uma entidade **opcional** pode ter `0` linhas;
+- não usa `unique`;
+
+As regras de restrição para a `fk` sobre `update` e `delete` para relacionamento `m:n`, `ternários` e `generalização` transformados em tabelas `SQL` sempre precisam ser propagadas, pois cada valor da tabela depende da existência da `pk` referenciada.
 
 ## Relacionamento ternário e n-ário
 
-As regras de restrição para a `fk` sobre `update` e `delete` para relacionamento ternários e n-ários transformados em tabelas `SQL` sempre precisam ser propagadas, pois cada valor da tabela depende da existência  da `pk` referenciada.
+Nesse tipo de relacionamento não é permitida a `opcionalidade` e a restrição `unique` não pode ser usada para atributos individuais.
 
 ### Tipos de ternários
 
@@ -75,7 +78,9 @@ Imagine que um `indivíduo` pode ser considerado `funcionário` ou um `cliente` 
 Para essas situação, temos:
 
 - cada entidade terá seu conjunto de atributos e regras, a saber: `chave candidata`, `atributos não chave` e `pk`;
-- as entidades `filhas`, neste caso `funcionário` e `cliente`, terão as `fk's` definidas por meio das `chaves candidatas` que se tornaram `pk's`, referenciando a entidade `pai`.
+- a entidade pai passa a ser chamada de `supertipo` e as entidades filhas de `subtipo`;
+- os atributos `não chave` da entidade `supertipo` são comuns aos `subtipos`;
+- as entidades `subtipos`, neste caso `funcionário` e `cliente`, terão as `fk's` definidas por meio das `chaves candidatas` que se tornaram `pk's`, referenciando a entidade `supertipo`.
 
 ### n-ário agregação
 
