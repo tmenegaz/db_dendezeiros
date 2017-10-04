@@ -29,6 +29,8 @@
 
 > ![vendedor_picole](img/venda_picole.png "vendedor_picole")
 >
+## DDL do vendedor de capelinha
 
+> [código sql da transposição do modelo lógico para o físico](src/banco_picole.sql)
 
 [Localize-se: lista das aulas](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas)
