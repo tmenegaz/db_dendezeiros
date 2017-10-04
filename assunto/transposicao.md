@@ -2,10 +2,10 @@
 
 ## Em um relacionamento binário `1:1`  
 
-- quando duas entidades são **obrigatórias** cada entidade se torna uma tabela, e a `PK` de qualquer entidade pode aparecer na tabela da outra entidade como `FK`.
-- quando, em uma das entidades, o relacionamento é **opcional** deve conter a `FK` da outra entidade em sua tabela transforma
-da.
-- quando as duas entidades são **opcionais** qualquer entidade pode conter a `FK` embutida da outra entidade, com `null` permitido na `FK`.
+- quando duas entidades são **obrigatórias** cada entidade se torna uma tabela, e a `pk` de qualquer entidade pode aparecer na tabela da outra entidade como `fk`.
+- é mais eficiente colocar a `fk` na tabela com menos linhas;
+- quando, em uma das entidades, o relacionamento é **opcional** deve conter a `fk` da outra entidade em sua tabela transformada.
+- quando as duas entidades são **opcionais** qualquer entidade pode conter a `fk` embutida da outra entidade, com `null` permitido na `fk`.
  
 ## Em relacionamento binário `1:m`
 
@@ -23,35 +23,64 @@ da.
 
 ## Relacionamento ternário e n-ário
 
+As regras de restrição para a `fk` sobre `update` e `delete` para relacionamento ternários e n-ários transformados em tabelas `SQL` sempre precisam ser propagadas, pois cada valor da tabela depende da existência  da `pk` referenciada.
+
+### Tipos de ternários
+
 - n-ários possuem `n + 1` variações possíveis de conectividade;
 - existem `4` variações possíveis em um relacionamento **ternário**;
-- todas as variações são transpostas para uma tabela `SQL` que deve conter as `pk’s` de todas as entidades: declaração das `fk's`;
-- as regras de restrição para a `fk` sobre `update` e `delete` para relacionamento ternários transformados em tabelas `SQL` sempre precisam ser propagadas, pois cada valor da tabela depende da existência  da `pk` referenciada.
+- todas as variações são transpostas para uma tabela `SQL` que deve conter as `pk’s` de todas as entidades: declaração das `fk's`.
 
 ### quando cada relacionamento tem cardinalidade `1` a tabela **resultante** tem:
 
-- `3` `pk’s` distintas possíveis;
+- todas os atributos `pk's` das entidades `pais` são declarados como `chave candidata` na entidade resultante `filha`;
+- têm-se `3` `pk’s` distintas possíveis;
+- `2` `chaves candidatas`: `pk's` das tabelas `pais`, são declaradas com `pk` da tabela `filha`;
+- cada `uma` das entidades declaradas como `pk` fará par com a `chave candidata` que não foi declarada como `pk`, por meio de `2` regras `unique`: uma `unique` para cada;
 - são `3` as dependências funcionais - `Df’s`;
 - não existe **opcionalidade**. pois todas as `n` entidades precisam de cada instância do relacionamento;
 - o `n.º` de relacionamentos define o limite inferior sobre o `n.º` de `DF’s`;
-- define-se `unique` em pares de entidades de grau `1`, na entidade resultante.
     
 ### quando cada relacionamento tem cardinalidade `1:1:m` a tabela **resultante** tem:
 
+- todas os atributos `pk's` das entidades `pais` são declarados como `chave candidata` na entidade resultante `filha`;
+- têm-se `2` `pk’s` distintas possíveis;
+- `2` `chaves candidatas`: `pk's` das tabelas `pais`, são declaradas com `pk` da tabela `filha`: uma com grau de cardinalidade `1` e a outra com grau de cardinalidade `m`;
+- a entidades declaradas como `pk` que tem grau cardinalidade `m` fará par com a `chave candidata` que não foi declarada como `pk`, por meio de `1` regras `unique`;
 - `2` `pk’s` distintas possíveis entre `1` e `n`;
 - são `2` as dependências funcionais - `Df’s`;
-- define-se `unique` com a entidade de grau `n` e a entidades de grau `1`, que não teve a `pk` utilizada na definição da `pk` da entidade resultante.
     
 ### quando cada relacionamento tem cardinalidade `1:m:n` a tabela **resultante** tem:
 
+todas os atributos `pk's` das entidades `pais` são declarados como `chave candidata` na entidade resultante `filha`;
+- têm-se `2` `pk’s` distintas possíveis;
+- `2` `chaves candidatas`: `pk's` das tabelas `pais`, são declaradas com `pk` da tabela `filha`: as `2` `chaves candidatas` com grau de cardinalidade `m`;
 - `2` `pk’s` distintas possíveis entre `m` e `n`;
 - é `1` a dependência funcional - `Df`.
     
 ### quando cada relacionamento tem cardinalidade `m:m:n` a tabela **resultante** tem: 
 
+todas os atributos `pk's` das entidades `pais` são declarados como `chave candidata` na entidade resultante `filha`;
+- têm-se `1` `pk` possíveis;
+- `3` `chaves candidatas`: `pk's` das tabelas `pais`, são declaradas com `pk` da tabela `filha`;
 - `uma` única `pk` composta, sem considerar os atributos próprios do relacionamento;
 - é `0` a dependência funcional - `Df`.
- 
+
+### n-ário generalização
+
+A transformação de uma abstração **generalizada** pode produzir tabelas `SQL` separadas para entidades genéricas ou `supertipos` para cada um dos subtipos.
+
+Imagine que um `indivíduo` pode ser considerado `funcionário` ou um `cliente` ou `ambos` ou até mesmo `nada`
+
+Para essas situação, temos:
+
+- cada entidade terá seu conjunto de atributos e regras, a saber: `chave candidata`, `atributos não chave` e `pk`;
+- as entidades `filhas`, neste caso `funcionário` e `cliente`, terão as `fk's` definidas por meio das `chaves candidatas` que se tornaram `pk's`, referenciando a entidade `pai`.
+
+### n-ário agregação
+
+A transformação de uma abstração de **agregação** também produz tabelas separadas prara a entidade `supertipo` e as entidades `subtipos`. Contudo, não existem atributos comuns e restrições de integridade a serem mantidas.
+
 ---
 
 ![tranposicao](img/logico2fisico_binario.png "Lista de transposição")
