@@ -47,18 +47,16 @@ Nesse tipo de relacionamento não é permitida a `opcionalidade` e a restrição
 ### quando cada relacionamento tem cardinalidade `1:1:m` a tabela **resultante** tem:
 
 - todas os atributos `pk's` das entidades `pais` são declarados como `chave candidata` na entidade resultante `filha`;
-- têm-se `2` `pk’s` distintas possíveis;
 - `2` `chaves candidatas`: `pk's` das tabelas `pais`, são declaradas como `pk` da tabela `filha`: uma com grau de cardinalidade `1` e a outra com grau de cardinalidade `m`;
 - a entidades declaradas como `pk` que tem grau cardinalidade `m` fará par com a `chave candidata` que não foi declarada como `pk`, por meio de `1` regras `unique`;
-- `2` `pk’s` distintas possíveis entre `1` e `n`;
+- `2` `pk’s` distintas possíveis entre `1` e `1`;
 - são `2` as dependências funcionais - `Df’s`;
     
 ### quando cada relacionamento tem cardinalidade `1:m:n` a tabela **resultante** tem:
 
 todas os atributos `pk's` das entidades `pais` são declarados como `chave candidata` na entidade resultante `filha`;
-- têm-se `2` `pk’s` distintas possíveis;
-- `2` `chaves candidatas`: `pk's` das tabelas `pais`, são declaradas como `pk` da tabela `filha`: as `2` `chaves candidatas` com grau de cardinalidade `m`;
-- `2` `pk’s` distintas possíveis entre `m` e `n`;
+- `2` `chaves candidatas`: `pk's` das tabelas `pais`, são declaradas como `pk` da tabela `filha`: as `2` `chaves candidatas` com grau de cardinalidade `m` e `n`;
+- `1` `pk` possíveis entre `m` e `n`;
 - é `1` a dependência funcional - `Df`.
     
 ### quando cada relacionamento tem cardinalidade `m:m:n` a tabela **resultante** tem: 
