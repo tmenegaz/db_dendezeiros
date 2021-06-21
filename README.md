@@ -34,4 +34,4 @@ Programar softwares, aplicando metodologias e padrões de desenvolvimento, norma
 
 [Voltar ao topo (Objetivo)](#objetivo)
 
-Agora que a ementa da unidade curricular foi apresentada veja os critérios para a [avaliação](https://github.com/tmenegaz/db_dendezeiros/blob/master/avaliacao.md#avaliação) ou vá direto para o [assunto](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/introducao.md).
+Agora que a ementa da unidade curricular foi apresentada veja os critérios para a [avaliação](https://github.com/tmenegaz/db_dendezeiros/blob/master/avaliacao.md#avaliação) ou vá direto para o [assunto](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/introducao.md#conceitos).
