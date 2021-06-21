@@ -1,4 +1,5 @@
-<!-- background: #ffffff -->
+<!-- background: #ff7b3b -->
+<!-- color: #fff -->
 
 # Lista de transposição
 
