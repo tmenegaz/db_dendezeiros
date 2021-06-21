@@ -2,7 +2,7 @@
 
 [<- voltar para home](https://github.com/tmenegaz/db_dendezeiros/blob/master/README.md#senai)
 
-[ir -> assunto](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/introducao.md#conceitos)
+[ir para -> assunto](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/introducao.md#conceitos)
 
 ## Curso técnico de informática
 
@@ -119,6 +119,8 @@ Programada para o dia **11/10/2017** - quarta-feira - e será uma *avaliação f
 |5| 20 | mista |3h|
 
 [Voltar ao topo (Avaliação)](#avaliação)
+
+[ir para -> assunto](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/introducao.md#conceitos)
 
 Agora que o cronograma e os critérios de avaliação da unidade curricular foram apresentados veja a [lista](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas) das apresentações que acompanharam os assuntos tratados em cada aula ministrada. 
 
