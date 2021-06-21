@@ -1,5 +1,9 @@
 # SENAI
 
+[<- voltar para home](https://github.com/tmenegaz/db_dendezeiros/blob/master/README.md#senai)
+
+[ir -> assunto](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/introducao.md#conceitos)
+
 ## Curso técnico de informática
 
 |Disciplina|Módulo|Carga horária|Unidade|Ano|
