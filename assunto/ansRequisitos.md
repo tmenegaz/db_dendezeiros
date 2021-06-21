@@ -9,7 +9,7 @@ Para isso deve-se ter em conta os objetivos básico da análise de requisitos, a
 - determinar os tipos de transações que devem ser executadas no banco de dados e a interação entre as transações e  os *elementos de dados*.
 - definir quaisquer restrições de desempenho, integridade, segurança ou administrativa que tenham de ser importas sobre o banco de dados resultante;
 - epecificar quaisquer restrições de projeto e de implementação: tecnologia, hardware, software, linguagem de programação, políticas, padões ou interfaces externas específicos;
-- documentar completamente todos os itens anteriores em um documento de *DEtalhamento dos requisitos*. Os elementos de dados também podem ser definidos em um sistema de *dicionário de dados*, normalmente fornecido como parte integral do sistema de gerenciamento do banco de dados.
+- documentar completamente todos os itens anteriores em um documento de *detalhamento dos requisitos*. Os elementos de dados também podem ser definidos em um sistema de *dicionário de dados*, normalmente fornecido como parte integral do sistema de gerenciamento do banco de dados.
 
 Pratique a analise os requisitos e estabeleça as relações entre as entidades encontradas nos [casos](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#estudos-de-caso).
 
