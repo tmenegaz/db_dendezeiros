@@ -48,9 +48,9 @@
 
 * [db_dendezeiros_aula9.1](https://github.com/tmenegaz/db_dendezeiros/blob/master/avaliacao.md#devolução-das-provas-corrigidas-1)
 
-* [db_dendezeiros_aula10](https://github.com/tmenegaz/db_dendezeiros/blob/master/logico2fisico.md#modelo-lógico)
+* [db_dendezeiros_aula10](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/logico2fisico.md#modelo-lógico)
 
-* [db_dendezeiros_aula11](https://github.com/tmenegaz/db_dendezeiros/blob/master/fisico.md#modelo-físico)
+* [db_dendezeiros_aula11](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/fisico.md#modelo-físico)
 
 * [db_dendezeiros_aula12](https://github.com/tmenegaz/db_dendezeiros/blob/master/avaliacao.md#devolução-das-provas-corrigidas-2)
 
