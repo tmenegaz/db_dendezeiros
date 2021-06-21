@@ -22,7 +22,7 @@ Entidade_loja
 |café|16/02/2018|20|
 |farinha trigo|09/01/2019|110|
 
-> 2ª regra: Uma tabela com dados tômicos não pode conter múltiplas colunas com o mesmo tipos de dados.
+> 2ª regra: Uma tabela com dados atômicos não pode conter múltiplas colunas com o mesmo tipos de dados.
 
 Entidade_cliente
 
@@ -101,7 +101,7 @@ Entidade_imóvel
 > Quando todos os 3 relacionamentos são 1 a tabela resultante possui 3 chaves distintas possíveis.  Esse arranjo representa o fato de que 3 DFs são necessárias para descrever esse relacionamento. A restrição de opcionalidade não é utilizada aqui porque  todas as *n* entidades precisam participar do relacionamento para satisfazer as restrições de DF. Toby [et al, 97]
 
 
-usa_notboock
+usa_notbook
 
 |Id_tec|Id_projeto|Id_notbook|
 |-------|------|---------|

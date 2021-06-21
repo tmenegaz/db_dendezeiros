@@ -1,20 +1,20 @@
 # Exercícios
 
-## 1. Pesquise a fim de conhecer e determinar o que é banco de dados *hierárquico*, *rede*, *relacional*, *objeto-relacional* e *objeto*.
+## 1. Pesquise a fim de conhecer e determinar o que é banco de dados *hierárquico*, de *rede*, *relacional*, de *objeto-relacional* e de *objeto*.
 
 - *Hierárquico*: um gerenciador desse tipo representa dados como uma estrutura em árvore, composto de hierarquia e registros
     - exemplo:
     
    ![Gerenciador hierárquico](img/gerenciadorHierarquico.png "Gerenciador hierárquico")
 
-Neste caso, há dados específicos em CLIENTE(nome, endereço, cidade, estado etc); os segmentos dependentes de cliente são CHEKCONTA e GRAVACONTA, que tem cada um, conforme a imagem, dois segmentos. Cada um dos segmentos inferiores dependem hierarquicamente dos segmentos superiores. E para elém disso, cada um tem dados específicos. É comum encontar esse gerenciador em ambientes de grande porte, como implementações *IMS<sup>[10](#myfootnote10)</sup>*
+        Neste caso, há dados específicos em CLIENTE(nome, endereço, cidade, estado etc); os segmentos dependentes de cliente são CHEKCONTA e GRAVACONTA, que tem cada um, conforme a imagem, dois segmentos. Cada um dos segmentos inferiores dependem hierarquicamente dos segmentos superiores. Para elém disso, cada um tem dados específicos. É comum encontar esse gerenciador em ambientes de grande porte, como implementações *IMS<sup>[10](#myfootnote10)</sup>*
 
-- *Rede*: representa osdados como registros vinculados uns aos outros, formando conjuntos comuns de dados. Existe uma similaridade muito grande o modelo hierárquico e o modelo de rede. Pode-se enteder o modelo de rede como uma generalização do modelo hierárquico. no modelo de rede um *filho* pode ter mais de um *pai*.
+- *Rede*: representa os dados como registros vinculados uns aos outros, formando conjuntos comuns de dados. Existe uma similaridade muito grande entre o modelo hierárquico e o modelo de rede. Pode-se enteder o modelo de rede como uma generalização do modelo hierárquico. No modelo de rede um *filho* pode ter mais de um *pai*.
     - exemplo
 
    ![Gerenciador de rede](img/gerenciadorRede.png "Gerenciador de rede")
 
-- *Relacional*: representa osdados com uma simples coleção de linhas e colunas em tabelas bidimensionais.
+- *Relacional*: representa os dados como uma simples coleção de linhas e colunas em tabelas bidimensionais.
     - exemplo
 
     ![Gerenciador relacional](img/gerenciadorRelacional.png "Gerenciador relacional")
@@ -32,7 +32,7 @@ Neste caso, há dados específicos em CLIENTE(nome, endereço, cidade, estado et
 >
 > Quando transportada ao *modelo físico* chamamos a entidade de tabela.
 >
-> Ao transpor do modelo Relacional para o modelo Orientado a Objeto, a *entidade* passa a ser uma *classe* ou *categoria* do objeto ao qual acregaremos os respectivos métodos.
+> Ao transpor do modelo Relacional para o modelo Orientado a Objeto, a *entidade* passa a ser uma *classe* ou *categoria* do objeto ao qual agregaremos os respectivos métodos.
 
 ## 3. Dê exemplos de entidades.
 
@@ -50,7 +50,7 @@ Neste caso, há dados específicos em CLIENTE(nome, endereço, cidade, estado et
 
 ## 5. O que é um atributo na abordagem relacional?
 
-> O atributo é o *item de dado* que qulifica uma entidade descreve seus elementos ou características. Quando evolui-se para o projeto físico do modelo chamamos o atributo de campo ou coluna.
+> O atributo é o *item de dado* que qulifica uma entidade e descreve seus elementos ou características. Quando evolui-se para o projeto físico do modelo chamamos o atributo de campo ou coluna.
 
 ## 6. Exemplifique atributos.
 

@@ -52,4 +52,6 @@ Para um caso em que músicos especialistas de uma orquestra tocam em um dos naip
 
 Analise os requisitos e faça a normalização dos [casos](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/casos.md#estudos-de-caso)
 
+[Próxima aula -> O modelo lógico](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/logico2fisico.md#modelo-lógico)
+
 [Localize-se: lista das aulas](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas)

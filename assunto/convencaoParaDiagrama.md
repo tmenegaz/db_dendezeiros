@@ -62,5 +62,6 @@ Utlize o modelo de diagrama para transpor os esquemas estudados em cada estudo d
 
 [UNIP](http://www.noginfo.com.br/arquivos/CC_MDados_07.pdf)
 
+[Próxima aula -> Formas normais](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/formas_normais.md#normalização)
 
 [Localize-se: lista das aulas](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas)

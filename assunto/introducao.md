@@ -29,7 +29,7 @@ A linguagem SQL possui divisões, a saber:
 
 Ademais, afim de atender aos objetivos de ensino e aprendizagem apresentados na ementa, aqui serão adotadas as versões SQL-99 e SQL-92. A partir da SQL-99 a linguagem SQL incorpora comandos procedurais<sup>[7](#myfootnote7)</sup> como o *BEGIN*, *IF*, *funções* e *procedimentos* que já existiam como extensões da linguagem. Essas duas revisões, padrão ISO-ANSI, são facilmente encontradas no mercado de desenvolvimento de sistemas sem, portanto, nenhum prejuizo para o aluno no decorrer do curso técnico de informática.
 
-Para falarmos de banco de dados, SQL, SGBDR e sistemas de banco de dados relacionais (*SBDR*) usamos varias vezes a palavra "**dado**", sem, contudo, defini-la neste contexto da Tecnologia da Informação - *TI*<sup>[8](#myfootnote8)</sup>. Agora vejamos o que é o dado o que está em seu entorno.
+Para falarmos de banco de dados, SQL, SGBDR e sistemas de banco de dados relacionais (*SBDR*) usamos varias vezes a palavra "**dado**", sem, contudo, defini-la neste contexto da Tecnologia da Informação - *TI*<sup>[8](#myfootnote8)</sup>. Agora vejamos o que é o dado e o que está em seu entorno.
 
 O dado pode ser abstraido como a unidade básica da informação. Sendo um componente básico de um arquivo em um sistema de arquivos é o *item de dados* a menor unidade carregada de significado no mundo real. Não obstante a isso, pode-se apresentar como exemplo *nome*, *sobrenome*, *telefone*, *número de identificação*, *sigla de partido político* etc.
 
@@ -72,7 +72,9 @@ Trabalhe metodicamente pelas etapas do ciclo de vida e corrija erros de projeto 
 - o projeto lógico visa uma solução viável para satisfazer todas as consultas conhecidas e em potencial.
 - o projeto físico é para otimizar o desempenho para consultas e atualizações conhecidas e projetadas.
 
-# [Exercícios](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/exercicios1.md#exercícios)
+# [Fazer a lista de exercícios](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/exercicios1.md#exercícios)
+
+[Próxima aula -> a visita técnica](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/visitaTecnica.md#visita-técnica)
 
 
 [Voltar ao topo (Conceitos)](#conceitos)

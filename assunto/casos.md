@@ -8,6 +8,7 @@ Então Maria percebeu que devia mudar. Contatou os estudantes do curso técnico 
 
 > [Análise desenvolvida para o caso Loja de CDs](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso1.md#caso-loja-de-cds)
 
+
 ---
 
 ## Vendedor de capelinha
@@ -19,6 +20,7 @@ Agora, Angelo vai criar o projeto de bancode dados para seu Antônio relacionand
 
 > [Análise desenvolvida para o caso Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso2.md#caso-vendedor-de-capelinha)
 
+
 ---
 
 ## Aluguel de filmes
@@ -28,6 +30,7 @@ A pequena locadora da Ana Luiza tem filmes com gêneros distintos organizados po
 > [Diagrama do caso Aluguel de filmes](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso3.md#caso-aluguel-de-filmes)
 
 ---
+# Exercício
 
 ## Imóvel
 
@@ -95,5 +98,6 @@ Agora, para cada estudo de caso apresentado determine os relacionamentos por mei
 >
 > [Relacionamentos Vendedor de capelinha](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/respCaso2.md#relacionamento)
 
-
+[Próxima aula -> Convenção para a utilização do diagrama](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/convencaoParaDiagrama.md#convenção-para-a-utilização-do-diagrama)
+  
 [Localize-se: lista das aulas](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas)
