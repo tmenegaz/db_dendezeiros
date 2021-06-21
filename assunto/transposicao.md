@@ -1,6 +1,3 @@
-<!-- background: #ffffff -->
-
-
 # Lista de transposição
 
 ## Em um relacionamento binário `1:1`  
@@ -93,6 +90,7 @@ A transformação de uma abstração de **agregação** também produz tabelas s
 
 Diagramas transpostos para código `SQL`, que representam um fato do `mini mundo` conforme uma certa regra de transposição. 
 
-![tranposicao](img/logico2fisico_binario.png "Lista de transposição")
+
+> ![tranposicao](img/logico2fisico_binario.png "Lista de transposição")
 
 [Localize-se: lista das aulas](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/lista.md#lista-de-aulas)
