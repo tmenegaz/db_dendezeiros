@@ -175,7 +175,7 @@ OR <UPPER(<nome_da_mesma_coluna>)> = "<outro_valor>"),
 
 - assertiva
 
-Uma assertiva é utilizada para estabelecer restrições no banco de dadoscom base em dados de uma ou mais tabelas.
+Uma assertiva é utilizada para estabelecer restrições no banco de dados com base em dados de uma ou mais tabelas.
 
 ```mysql
 CREATE ASSERTION <nome_da_tabela>
