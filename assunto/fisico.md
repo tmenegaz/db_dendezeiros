@@ -28,7 +28,7 @@ Antes de criar tabelas a partir do projeto lógico é importante definir quais s
 |INTERVAL|intervalo de dada ou hora|
 
 
-## Para criar um banco no `MySql`
+## Comandos que podem ser usados no `MySql`
 
 > acesse o terminal `shell`  do `MySql`. A senha padrão do `MySql` é `root`
 
