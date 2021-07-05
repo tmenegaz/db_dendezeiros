@@ -32,9 +32,15 @@ A pequena locadora da Ana Luiza tem filmes com gêneros distintos organizados po
 ---
 # Exercício
 
+## Loja o cesto
+
+A loja o cesto comercializa moveis novos e usados. O setor de compras identifica o produto comprado com um código único, o preço de compra, a data da compra, NCM e o tipo do produto. No ato da venda é necessaria a emissão da NF-e com a indicação do emitente, comprador, produto, frete e forma de pagamento.
+O emitente deve informar os seus dados conforme o cartão CNPJ e o comprador deve informar o CPF, nome completo, enderço e telefone. O pagamento deve registrar a forma de pagamento, o valor, o tipo e a quantidade de parcelas. O frete deve ser calculado apenas quando a loja oferecer o serviço que pode ser próprio ou de terceiros.  Deve ser possível discriminar mais de um produto por consumidor.
+A NF-e deve mostrar os dados do emitente, consumidor do produto e os valores do frete, bem como o valor de cada item e os impostos deduzidos do valor total.
+
 ## Imóvel
 
-Um vendedor de imóveis atua ofertando esses bens em anuncios que tem  o valor do bem classificado em faixa mínima e máxima de preço. No anuncio existe seu *endereço*, *área útil*, *área total*, *dimensões*, *nº da oferta* e *data de lançamento*. Os imóveis estão espalhados por todo o território nacional com indicação de *bairro*, *cidade*, e *estado*. O comprador para  realizar a transação precisa preencher um cadastro com *nome*, *endereço*, *cpf*, *telefone* e *e-mail*. Para comprar, além do cadastro, o cliente deve efetuar um lance com o valor da oferta e a data do lance. O vendedor somente poderá finalizar a transação se indicar seus dados em formulário semelhante ao do cliente, com o preenchimento do campo *creci*.
+Um vendedor de imóveis atua ofertando esses bens em anuncios que tem  o valor de venda classificado em faixa mínima e máxima de preço. No anuncio existe seu *endereço*, *área útil*, *área total*, *dimensões*, *nº da oferta* e *data de lançamento*. Os imóveis estão espalhados por todo o território nacional com indicação de *bairro*, *cidade*, e *estado*. O comprador para  realizar a transação precisa preencher um cadastro com *nome*, *endereço*, *cpf*, *telefone* e *e-mail*. Para comprar, além do cadastro, o cliente deve efetuar um lance com o valor da oferta e a data do lance. O vendedor somente poderá finalizar a transação se indicar seus dados em formulário semelhante ao do cliente, com o preenchimento do campo *creci*.
 
 ## Treinamento SA
 
@@ -46,7 +52,6 @@ Sou gerente de uma empresa de treinamento que ministra vários cursos técnicos.
 Mariana trabalha em uma fábrica que vende seus produtos para pessoas naturais (PF) e pessoas jurídicas (PJ). Uma das atividades é cadastrar cada cliente por meio de um *formulário*: um para PF e outro para PJ. Mariana solicitou ajuda para as meninas do curso técnico de informática, pois elas mandam muito bem na disciplina de banco de dados, para elaboração de uma base de dados que posso aglutinar os dois furmulário para ela. Os meninos també podem ajudar. Cada formulário tem os campos *nome*, *sobrenome*, *telefone*, *endereço*, *data de nascimento* e *e-mail*, incomums e os campos *cpf* e *cnpj*, distintos. Mariana solicitou o método da normalização, além da elicitação de requisitos e determinação dos relacionamentos.
 
 ## Pratique
-
 
 Para cada estudo de caso apresentado faça o que segue abaixo para [elicitar requisitos](https://github.com/tmenegaz/db_dendezeiros/blob/master/assunto/ansRequisitos.md#análise-de-requisitos).
 

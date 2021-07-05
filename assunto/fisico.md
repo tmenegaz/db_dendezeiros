@@ -30,16 +30,54 @@ Antes de criar tabelas a partir do projeto lógico é importante definir quais s
 
 ## Para criar um banco no `MySql`
 
-> acesse o terminal `shell`  do `MySql`
+> acesse o terminal `shell`  do `MySql`. A senha padrão do `MySql` é `root`
 
 ```mysql
-mysql -uroot
+sudo mysql --password
+```
+
+> para sair do `shell`  do `MySql`
+```mysql
+EXIT;
 ```
 
 > para criar um banco de dados no `MySql`
 
 ```mysql
 CREATE DATABASE <nome_do_banco>;
+```
+
+> para criar um novo usuário para a aplicação
+
+```mysql
+CREATE USER
+    '<user_name>'@'<host_name>'
+IDENTIFIED BY
+    '<password>';
+# <user_name> é o nome do seu usúrio de acesso e
+# <host_name> pode ser localhost ou o endereço IP.
+# A senha é opcional para ambiente de sala de aula.
+```
+
+> dar privilégios de acesso ao `<user_name>` para um banco específico no `MySql`
+
+```mysql
+GRANT ALL PRIVILEGES ON
+    <nome_do_banco>.*
+TO
+    '<user_name>'@'<host_name>';
+# substiua <nome_do_banco>.* por *.* para ter acesso a todos os bancos
+```
+
+> atualize os privilégios do banco para o novo usuário
+
+```mysql
+FLUSH PRIVILEGES;
+```
+
+> para entrar com o novo usuário no `shell`  do `MySql`
+```mysql
+mysql -u <user_name> -p # digite a password caso exista. Senão existir pode omitir o -p
 ```
 
 > determine o banco que será usado
@@ -51,12 +89,13 @@ USE <nome_do_banco>;
 > criar uma tabela com suas integridades referenciais. As referências são *regras* para cada coluna e para a tabela e são chamadas de contraints
 
 ```mysql
-CREATE TABLE <nome_da_tabela>
-(nome_coluna1 tipo_de_dado_coluna1 coluna1_contraint,
-nome_coluna2 tipo_de_dado_coluna2 coluna2_contraint,
-nome_coluna3 tipo_de_dado_coluna3 coluna3_contraint,
-nome_coluna4 tipo_de_dado_coluna4 coluna4_contraint,
-contraint_da_tabela);
+CREATE TABLE <nome_da_tabela> (
+    nome_coluna1 tipo_de_dado_coluna1 coluna1_contraint,
+    nome_coluna2 tipo_de_dado_coluna2 coluna2_contraint,
+    nome_coluna3 tipo_de_dado_coluna3 coluna3_contraint,
+    nome_coluna4 tipo_de_dado_coluna4 coluna4_contraint,
+    contraint_da_tabela
+);
 ```
 onde:
 
